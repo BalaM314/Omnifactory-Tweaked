@@ -18,7 +18,7 @@ Roadmap:
 * [ ] Add more fun catalyzed recipes
 * [ ] Add more fun chemistry
 * [ ] Try to make microminers more useful, especially t1mm post tank
-
+* [ ] Add more fun recipes(like the Hyperspace disc recipe)
 
 Original Description:
 
