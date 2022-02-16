@@ -11248,7 +11248,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§9Hydrogen Sulfide§r is a byproduct of hydrodesulfurization.\n\nA simple chemical reaction with §9Water§r reprocesses it into the useful §9Sulfuric Acid§r, or it can be electrolyzed for recovering the §9Hydrogen§r.",
+          "desc:8": "§9Hydrogen Sulfide§r is a byproduct of hydrodesulfurization.\n\nA simple chemical reaction with §9Oxygen§r reprocesses it into the useful §9Sulfuric Acid§r, or it can be electrolyzed for recovering the §9Hydrogen§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13082,7 +13082,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "A more advanced type of §6Silicon Boule§r, formed by doping the §6Silicon§r crystal lattice with §6Glowstone§r.\n\nThese are made in an §3EBF§r with §6Nichrome§r or better coils, and need §9Argon§r for the process. It needs twice as much Silicon as the basic boules, but also results in twice as many doped Silicon Wafers when sliced.\n\nCircuit Wafers can be made far more efficiently with these doped Silicon Wafers, but they are also needed for some more advanced types of Circuit Wafers that can\u0027t be engraved onto the basic ones.",
+          "desc:8": "A more advanced type of §6Silicon Boule§r, formed by doping the §6Silicon§r crystal lattice with §6Glowstone§r.\n\nThese are made in an §3EBF§r with §6Kanthal§r or better coils, and need §9Argon§r for the process. It needs twice as much Silicon as the basic boules, but also results in twice as many doped Silicon Wafers when sliced.\n\nCircuit Wafers can be made far more efficiently with these doped Silicon Wafers, but they are also needed for some more advanced types of Circuit Wafers that can\u0027t be engraved onto the basic ones.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26514,7 +26514,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Now that you have §6Osmium§r and §6Iridium§r from the §6Tier Four Micro Miner§r, you can begin automating §bExtended Crafting§r recipes. While it is possible to use §6Automation Interfaces§r for this task, you have access to something §nvastly§r better§r: §bPackagedExCrafting§r.\n\nTo begin, you\u0027ll need to craft one of each extended §3Package Crafter§r listed on the right. Put an §3Unpackager§r on top of each one, and then a §3Packager§r on top of each Unpackager. These are all AE2 devices, so you\u0027ll need to connect them to an ME Network.\n\nNext, right-click the §3Package Recipe Encoder§r, and you should see a button saying \"Processing\": this button cycles through recipe types, including the various Extended Crafting tables. You\u0027ll have to choose the appropriate table for the recipe you want to encode.\n\n§6Holders§r must be encoded in pairs: one for the Packager, and one for the Unpackager. Select the appropriate table for the recipe, look up the recipe you want to encode, and press §6[+]§r in §bJEI§r to fill it in. Put two Holders in the top-left slot and press Save to encode the recipe to both of them. Finally, put each Holder into the respective machines.\n\nIf you\u0027ve done everything correctly, you should see the item appear as craftable in a Terminal.\n\nWhile it might seem that the crafting process is slow, §ePackagedAuto is excellent at parallelizing§r. You can surround an Unpackager with Crafters and it will use all of them. It\u0027s also possible to add more Unpackagers with Crafters to keep up with the Packager, as long as the Holders are all the same.\n\n",
+          "desc:8": "Now that you have §6Osmium§r and §6Iridium§r from the §6Tier Four Micro Miner§r, you can begin automating §bExtended Crafting§r recipes. While it is possible to use §6Automation Interfaces§r for this task, you have access to something §nvastly§r better: §bPackagedExCrafting§r.\n\nTo begin, you\u0027ll need to craft one of each extended §3Package Crafter§r listed on the right. Put an §3Unpackager§r on top of each one, and then a §3Packager§r on top of each Unpackager. These are all AE2 devices, so you\u0027ll need to connect them to an ME Network.\n\nNext, right-click the §3Package Recipe Encoder§r, and you should see a button saying \"Processing\": this button cycles through recipe types, including the various Extended Crafting tables. You\u0027ll have to choose the appropriate table for the recipe you want to encode.\n\n§6Holders§r must be encoded in pairs: one for the Packager, and one for the Unpackager. Select the appropriate table for the recipe, look up the recipe you want to encode, and press §6[+]§r in §bJEI§r to fill it in. Put two Holders in the top-left slot and press Save to encode the recipe to both of them. Finally, put each Holder into the respective machines.\n\nIf you\u0027ve done everything correctly, you should see the item appear as craftable in a Terminal.\n\nWhile it might seem that the crafting process is slow, §ePackagedAuto is excellent at parallelizing§r. You can surround an Unpackager with Crafters and it will use all of them. It\u0027s also possible to add more Unpackagers with Crafters to keep up with the Packager, as long as the Holders are all the same.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -47799,7 +47799,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §6Smart Item Filter§r from §3GregTech§r is an important tool when automating otherwise troublesome machines. It is a cover which filters item transfer based on whether a valid recipe exists for those items in a specified machine.\n\nThis is powerful in combination with movement covers like the §6Robot Arm§r. If you place this filter on the §eElectrolyzer§r mode in a Robot Arm set to §eSupply Exact§r mode, the Robot Arm will transfer precisely the right amounts of all valid items into an §3Electrolyzer§r so it will operate without clogging. There\u0027s no other way to accomplish this feat!\n\nThis filter also has §eSifter§r and §eCentrifuge§r§r modes for use with those machines (though §3Sifters§r are not in §5Nomifactory§r). It does not have modes for any other machines.\n\nThe §eDefault§r button lets you click it to §eIgnore Fluids§r, which is useful when you have recipes that also require fluids (like §9Hydrogen§r in an Electrolyzer). Since Robot Arms can\u0027t move fluids, it would otherwise prevent the cover from working.\n",
+          "desc:8": "The §6Smart Item Filter§r from §3GregTech§r is an important tool when automating otherwise troublesome machines. It is a cover which filters item transfer based on whether a valid recipe exists for those items in a specified machine.\n\nThis is powerful in combination with movement covers like the §6Robot Arm§r. If you place this filter on the §eElectrolyzer§r mode in a Robot Arm set to §eSupply Exact§r mode, the Robot Arm will transfer precisely the right amounts of all valid items into an §3Electrolyzer§r so it will operate without clogging. There\u0027s no other way to accomplish this feat!\n\nThis filter also has §eSifter§r and §eCentrifuge§r modes for use with those machines (though §3Sifters§r are not in §5Nomifactory§r). It does not have modes for any other machines.\n\nThe §eDefault§r button lets you click it to §eIgnore Fluids§r, which is useful when you have recipes that also require fluids (like §9Hydrogen§r in an Electrolyzer). Since Robot Arms can\u0027t move fluids, it would otherwise prevent the cover from working.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54977,7 +54977,7 @@
       "livesdef:3": 3,
       "livesmax:3": 10,
       "pack_name:8": "Nomifactory",
-      "pack_version:3": 11,
+      "pack_version:3": 13,
       "party_enable:1": 1
     }
   }
