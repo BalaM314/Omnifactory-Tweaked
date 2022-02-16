@@ -19,7 +19,7 @@ Roadmap:
 * [ ] Try to make microminers more useful, especially t1mm post tank
 * [ ] Add more fun recipes(like the Hyperspace disc recipe)
 
-\[[Download Dev Snapshots Here](https://nightly.link/Nomifactory/Nomifactory/workflows/nightly/dev)] \[[Learn How to Install or Update to Dev Snapshots Here](https://github.com/Nomifactory/NomifactoryGuides/blob/latest/guides/PlayingOnDev.md)]
+\[[Download Dev Snapshots Here](https://nightly.link/Nomifactory/Nomifactory/workflows/nightly/dev)] \[[Learn How to Install or Update to Dev Snapshots Here](https://github.com/Nomifactory/Guides/blob/latest/guides/PlayingOnDev.md)]
 
 Original Description:
 
