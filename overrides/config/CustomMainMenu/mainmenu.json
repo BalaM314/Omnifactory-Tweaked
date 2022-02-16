@@ -89,7 +89,7 @@
 
         "update":
         {
-            "text" : "Update Notes",
+            "text" : "Github",
             "posX" : 125,
             "posY" : 26,
             "width" : 120,
@@ -98,7 +98,7 @@
             "action" :
             {
                 "type" : "openLink",
-                "link" : "https://github.com/Nomifactory/Nomifactory/blob/dev/UPDATENOTES.md"
+                "link" : "https://github.com/BalaM314/Omnifactory-Tweaked"
             }
         },
         "discord":

@@ -353,7 +353,6 @@ assembler.findRecipe(2, [<minecraft:blaze_powder>,<minecraft:ender_pearl>], [nul
 assembler.findRecipe(2, [<minecraft:ender_pearl> * 6,<minecraft:blaze_rod>], [null]).remove();
 mixer.findRecipe(8, [<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2229>,<gregtech:meta_item_1:2044>], [null]).remove();
 mixer.recipeBuilder().inputs([<ore:dustGold>, <ore:dustSilver>, <ore:dustCopper> * 3]).outputs(<gregtech:meta_item_1:2229> * 5).EUt(8).duration(600).buildAndRegister();
-macerator.findRecipe(10, [<minecraft:netherrack>], [null]).remove();
 electrolyzer.findRecipe(30, [null], [<liquid:water> * 1000]).remove();
 electrolyzer.recipeBuilder().fluidInputs([<liquid:water> * 1000]).fluidOutputs([<liquid:hydrogen> * 2000, <liquid:oxygen> * 1000]).EUt(30).duration(750).buildAndRegister();
 
