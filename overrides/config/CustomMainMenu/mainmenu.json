@@ -4,10 +4,10 @@
         "title":
         {
             "image" : "minecraft:textures/gui/title/top.png",
-            "posX" : -150,
-            "posY" : 4,
-            "width" : 300,
-            "height" : 77,
+            "posX" : -260,
+            "posY" : -10,
+            "width" : 512,
+            "height" : 412,
             "alignment" : "top_center"
         }
     },
