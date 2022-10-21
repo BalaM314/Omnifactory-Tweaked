@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
+import scripts.CommonVars.makeShapedF as makeShapedF;
 
 recipes.addShapeless(<appliedenergistics2:network_tool>, [<ore:itemIlluminatedPanel>, <actuallyadditions:item_laser_wrench>]);
 
@@ -26,19 +27,21 @@ recipes.addShaped(<gregtech:machine:2199>, [[<gregtech:meta_item_1:12072>, <greg
 recipes.addShaped(<gregtech:machine:2197>, [[<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>],[<gregtech:meta_item_1:12184>, <minecraft:bucket>, <gregtech:meta_item_1:12184>], [<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>]]);
 recipes.addShaped(<gregtech:machine:2196>, [[<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>],[<gregtech:meta_item_1:12095>, <minecraft:bucket>, <gregtech:meta_item_1:12095>], [<gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>, <gregtech:meta_item_1:12095>]]);
 
-recipes.remove(<thermalexpansion:satchel:2>);
-recipes.addShaped("test", <thermalexpansion:satchel:2>, [
-	[null, <gregtech:meta_item_1:9112>, null],
-	[<gregtech:meta_item_1:10001>, <thermalexpansion:satchel:1>.marked("satchel"), <gregtech:meta_item_1:10001>], 
-	[<gregtech:meta_item_1:9112>, null, <gregtech:meta_item_1:9112>]],
-	function(out, ins, cInfo) {
-    var tag = {} as IData;
-    # This if is here to keep the tinkers workbench from screwing up JEI autocomplete
-    if(ins has "satchel" && !isNull(ins.satchel) && ins.satchel.hasTag) {
-        tag = ins.satchel.tag;
-    }
-    return out.withTag(tag);
-}, null);
+recipes.removeByRecipeName("thermalexpansion:satchel_3");
+makeShapedF("nf_reinforced_satchel",
+            <thermalexpansion:satchel:2>,
+            [" N ",
+             "ISI",
+             "N N"],
+            { N : <metaitem:nuggetElectrum>,
+              I : <metaitem:ingotAluminium>,
+              S : <thermalexpansion:satchel:1>.marked("satchel") },
+            function(out, ins, cinfo) {
+                if(ins.satchel.hasTag) {
+                    return out.withTag(ins.satchel.tag);
+                }
+                return out;
+            });
 
 //red lens
 lathe.findRecipe(16, [<gregtech:meta_item_1:12154>], [null]).remove();	
@@ -327,4 +330,19 @@ fluid_canner.recipeBuilder()
 	.fluidInputs(<liquid:xpjuice> * 500)
 	.outputs(<minecraft:experience_bottle>)
 	.duration(1500).EUt(4).buildAndRegister();
+
+// Re-add recipes related to Resonating Redstone Crystal, broken when 'gemRedstone' removed
+mods.thermalexpansion.Compactor.addGearRecipe(<extrautils2:ingredients:1>, <extrautils2:ingredients:0> * 4, 4000);
+
+mods.thermalexpansion.Compactor.addStorageRecipe(<metaitem:plateRedstone>, <extrautils2:ingredients:0>, 4000);
+
+fluid_extractor.recipeBuilder()
+    .fluidOutputs([<liquid:redstone> * 144])
+    .inputs([<extrautils2:ingredients:0>])
+    .duration(80).EUt(32).buildAndRegister();
+
+macerator.recipeBuilder()
+    .outputs([<minecraft:redstone>])
+    .inputs([<extrautils2:ingredients:0>])
+    .duration(30).EUt(8).buildAndRegister();
 

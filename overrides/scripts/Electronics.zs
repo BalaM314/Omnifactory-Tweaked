@@ -770,6 +770,8 @@ recipes.addShaped(<gregtech:machine:501>, [
 	[<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>], 
 	[<ore:cableGtSingleTin>, <gregtech:machine_casing:1>, <ore:cableGtSingleTin>]]);	
 assembler.findRecipe(16, [<gregtech:cable:5071> * 2, <gregtech:machine_casing:1>], [<liquid:plastic> * 288]).remove();	
+assembler.recipeBuilder().inputs(<ore:plateWroughtIron> * 3, <gregtech:machine_casing:1>, <ore:cableGtSingleTin> * 2).outputs([<gregtech:machine:501>]).duration(40).EUt(16).buildAndRegister();
+
 
 //LV Motor - with Fine Copper Wires
 recipes.addShaped(<gregtech:meta_item_1:32600>, [
@@ -808,10 +810,15 @@ recipes.addShapeless(<enderio:item_material:62>,[<extrautils2:endershard>,<extra
 recipes.removeByRecipeName("enderio:ender_defragmentation");
 recipes.addShaped(<minecraft:ender_pearl>,[[<enderio:item_material:62>,<enderio:item_material:62>],[<enderio:item_material:62>,<enderio:item_material:62>]]);
 
-autoclave.findRecipe(120, [<gregtech:meta_item_2:32572> * 9], [<liquid:water> * 1800]).remove();	
+// Energy Crystal
+autoclave.findRecipe(120, [<gregtech:meta_item_2:32572> * 9], [<liquid:water> * 1800]).remove();
+autoclave.findRecipe(120, [<gregtech:meta_item_2:32572> * 9], [<liquid:distilled_water> * 1800]).remove();
+autoclave.recipeBuilder()
+         .outputs([<gregtech:meta_item_2:32212>.withTag({Charge: 0 as long})])
+         .inputs([<gregtech:meta_item_2:32572> * 9])
+         .fluidInputs([<liquid:distilled_water> * 1800])
+         .duration(1500).EUt(120).buildAndRegister();
 
-
-	
 //Pyrolyse Oven
 recipes.remove(<gregtech:machine:514>);	
 recipes.addShaped(<gregtech:machine:514>, [

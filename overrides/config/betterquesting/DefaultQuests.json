@@ -1,4 +1,5 @@
 {
+  "build:8": "4.0.6",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -612,8 +613,8 @@
     },
     "8:10": {
       "preRequisites:11": [
-        191,
-        136
+        136,
+        191
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -718,8 +719,8 @@
     },
     "10:10": {
       "preRequisites:11": [
-        245,
-        209
+        209,
+        245
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1760,8 +1761,8 @@
     },
     "24:10": {
       "preRequisites:11": [
-        66,
         50,
+        66,
         687
       ],
       "properties:10": {
@@ -2696,9 +2697,9 @@
     },
     "38:10": {
       "preRequisites:11": [
-        530,
+        24,
         40,
-        24
+        530
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -3514,8 +3515,8 @@
     },
     "51:10": {
       "preRequisites:11": [
-        259,
         103,
+        259,
         282
       ],
       "properties:10": {
@@ -4287,7 +4288,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Access all of your items on a single screen. Soon, anyway.\n\nPlease note that all four variants of §6ME Terminals§r are §emicroparts§r, which means they need to be attached to an §6ME Cable§r (not conduit) to function.",
+          "desc:8": "Access all of your items on a single screen. Soon, anyway.\n\nPlease note that all five variants of §6ME Terminals§r are §emicroparts§r, which means they need to be attached to an §6ME Cable§r (not conduit) to function.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4872,8 +4873,8 @@
     },
     "70:10": {
       "preRequisites:11": [
-        187,
-        2
+        2,
+        187
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5008,8 +5009,8 @@
     "72:10": {
       "preRequisites:11": [
         76,
-        517,
-        516
+        516,
+        517
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5490,8 +5491,8 @@
     },
     "79:10": {
       "preRequisites:11": [
-        147,
         21,
+        147,
         259
       ],
       "properties:10": {
@@ -5688,8 +5689,8 @@
     },
     "82:10": {
       "preRequisites:11": [
-        27,
-        22
+        22,
+        27
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5754,8 +5755,8 @@
     },
     "83:10": {
       "preRequisites:11": [
-        147,
         21,
+        147,
         259
       ],
       "properties:10": {
@@ -5821,8 +5822,8 @@
     },
     "84:10": {
       "preRequisites:11": [
-        83,
         81,
+        83,
         88
       ],
       "properties:10": {
@@ -6010,8 +6011,8 @@
     },
     "87:10": {
       "preRequisites:11": [
-        236,
-        86
+        86,
+        236
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6154,8 +6155,8 @@
     },
     "89:10": {
       "preRequisites:11": [
-        87,
-        84
+        84,
+        87
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6537,27 +6538,20 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sulfuric_acid"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_acid"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
     "95:10": {
       "preRequisites:11": [
-        505,
-        94
+        94,
+        505
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6611,20 +6605,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "plastic"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "plastic"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -6973,9 +6960,9 @@
     },
     "101:10": {
       "preRequisites:11": [
+        63,
         69,
-        76,
-        63
+        76
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7320,8 +7307,8 @@
     },
     "106:10": {
       "preRequisites:11": [
-        104,
-        100
+        100,
+        104
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7330,7 +7317,7 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 360,
+            "Damage:2": 340,
             "OreDict:8": "",
             "id:8": "appliedenergistics2:part"
           },
@@ -7581,8 +7568,8 @@
     },
     "110:10": {
       "preRequisites:11": [
-        105,
         102,
+        105,
         296
       ],
       "properties:10": {
@@ -7920,8 +7907,8 @@
     },
     "115:10": {
       "preRequisites:11": [
-        125,
-        113
+        113,
+        125
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8117,8 +8104,8 @@
     },
     "118:10": {
       "preRequisites:11": [
-        102,
-        64
+        64,
+        102
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8638,9 +8625,9 @@
     },
     "126:10": {
       "preRequisites:11": [
+        90,
         95,
         130,
-        90,
         131
       ],
       "properties:10": {
@@ -8923,8 +8910,8 @@
     },
     "131:10": {
       "preRequisites:11": [
-        507,
-        95
+        95,
+        507
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8989,8 +8976,8 @@
     },
     "132:10": {
       "preRequisites:11": [
-        203,
-        129
+        129,
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -9055,9 +9042,9 @@
     },
     "133:10": {
       "preRequisites:11": [
-        134,
+        90,
         126,
-        90
+        134
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10230,20 +10217,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "titanium_tetrachloride"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "titanium_tetrachloride"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -10411,9 +10391,9 @@
     },
     "155:10": {
       "preRequisites:11": [
+        283,
         291,
-        744,
-        283
+        744
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10478,8 +10458,8 @@
     },
     "156:10": {
       "preRequisites:11": [
-        150,
-        60
+        60,
+        150
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -10793,50 +10773,25 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sulfuric_heavy_fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_heavy_fuel"
             },
             "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sulfuric_light_fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_light_fuel"
             },
             "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sulfuric_naphtha"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_naphtha"
             },
             "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sulfuric_gas"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_gas"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -10896,20 +10851,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "gas"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "gas"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11078,20 +11026,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "heavy_fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "heavy_fuel"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11151,20 +11092,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "light_fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "light_fuel"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11224,20 +11158,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "naphtha"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "naphtha"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11297,20 +11224,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "hydrogen_sulfide"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "hydrogen_sulfide"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11371,20 +11291,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "fuel"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11671,27 +11584,20 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "glycerol"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "glycerol"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
     "173:10": {
       "preRequisites:11": [
-        171,
-        49
+        49,
+        171
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -11745,20 +11651,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "nitrogen"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "nitrogen"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11883,20 +11782,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "argon"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "argon"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -11956,20 +11848,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "nitrogen_dioxide"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "nitrogen_dioxide"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12029,20 +11914,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "nitric_acid"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "nitric_acid"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12103,20 +11981,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "tetranitromethane"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "tetranitromethane"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12177,20 +12048,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "nitro_fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "nitro_fuel"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12250,20 +12114,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "ethenone"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "ethenone"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12323,20 +12180,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "acetic_acid"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "acetic_acid"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12397,20 +12247,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "epichlorhydrin"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "epichlorhydrin"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -12674,8 +12517,8 @@
     },
     "187:10": {
       "preRequisites:11": [
-        509,
-        259
+        259,
+        509
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12990,7 +12833,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 1,
-          "name:8": "The First Tier Five Circuit",
+          "name:8": "The First Tier Five Circuits",
           "partysinglereward:1": 0,
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
@@ -13076,8 +12919,8 @@
     },
     "194:10": {
       "preRequisites:11": [
-        175,
-        157
+        157,
+        175
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14293,8 +14136,8 @@
     },
     "212:10": {
       "preRequisites:11": [
-        220,
-        208
+        208,
+        220
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14578,9 +14421,9 @@
     },
     "216:10": {
       "preRequisites:11": [
+        89,
         385,
-        782,
-        89
+        782
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14694,8 +14537,8 @@
     "217:10": {
       "preRequisites:11": [
         216,
-        395,
-        220
+        220,
+        395
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14916,20 +14759,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "rocket_fuel"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "rocket_fuel"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -14990,20 +14826,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "dimethylhidrazine"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "dimethylhidrazine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -15064,20 +14893,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "dimethylamine"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "dimethylamine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -15138,20 +14960,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "chloramine"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "chloramine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -15211,20 +15026,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "ammonia"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "ammonia"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -15284,20 +15092,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "methanol"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "methanol"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -15357,20 +15158,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "hypochlorous_acid"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "hypochlorous_acid"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -15714,9 +15508,9 @@
     },
     "232:10": {
       "preRequisites:11": [
+        204,
         211,
         212,
-        204,
         762
       ],
       "properties:10": {
@@ -15953,20 +15747,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "mana"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "mana"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -16102,10 +15889,19 @@
       }
     },
     "238:10": {
+      "preRequisiteTypes:7": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
       "preRequisites:11": [
+        196,
         241,
-        411,
-        330
+        258,
+        330,
+        411
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16237,8 +16033,8 @@
     "240:10": {
       "preRequisites:11": [
         244,
-        317,
         271,
+        317,
         335
       ],
       "properties:10": {
@@ -16500,9 +16296,9 @@
     },
     "244:10": {
       "preRequisites:11": [
-        262,
+        239,
         258,
-        239
+        262
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16811,8 +16607,8 @@
     },
     "249:10": {
       "preRequisites:11": [
-        250,
-        248
+        248,
+        250
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17307,8 +17103,8 @@
     "256:10": {
       "preRequisites:11": [
         257,
-        411,
-        330
+        330,
+        411
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17658,9 +17454,9 @@
     },
     "261:10": {
       "preRequisites:11": [
-        745,
+        527,
         609,
-        527
+        745
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17923,8 +17719,8 @@
     },
     "265:10": {
       "preRequisites:11": [
-        783,
-        263
+        263,
+        783
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18108,20 +17904,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "radon"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "radon"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -18192,8 +17981,8 @@
     },
     "269:10": {
       "preRequisites:11": [
-        268,
-        54
+        54,
+        268
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18323,8 +18112,8 @@
     },
     "271:10": {
       "preRequisites:11": [
-        776,
-        331
+        331,
+        776
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18584,8 +18373,8 @@
     },
     "275:10": {
       "preRequisites:11": [
-        276,
-        273
+        273,
+        276
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18650,8 +18439,8 @@
     },
     "276:10": {
       "preRequisites:11": [
-        539,
-        94
+        94,
+        539
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18705,20 +18494,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "phosphoric_acid"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "phosphoric_acid"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -19106,9 +18888,9 @@
     },
     "283:10": {
       "preRequisites:11": [
+        531,
         138,
-        199,
-        531
+        199
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19275,9 +19057,9 @@
     },
     "286:10": {
       "preRequisites:11": [
-        198,
+        138,
         192,
-        138
+        198
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19492,9 +19274,9 @@
     },
     "288:10": {
       "preRequisites:11": [
-        336,
+        179,
         324,
-        179
+        336
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19792,8 +19574,8 @@
     },
     "293:10": {
       "preRequisites:11": [
-        331,
-        280
+        280,
+        331
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20889,20 +20671,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "elementalreduction"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "elementalreduction"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -21196,8 +20971,8 @@
     },
     "314:10": {
       "preRequisites:11": [
-        522,
-        253
+        253,
+        522
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21262,8 +21037,8 @@
     },
     "315:10": {
       "preRequisites:11": [
-        311,
         121,
+        311,
         745
       ],
       "properties:10": {
@@ -21729,8 +21504,8 @@
     },
     "323:10": {
       "preRequisites:11": [
-        313,
-        252
+        252,
+        313
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22289,8 +22064,8 @@
     "332:10": {
       "preRequisites:11": [
         242,
-        795,
-        533
+        533,
+        795
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23231,8 +23006,8 @@
     "347:10": {
       "preRequisites:11": [
         199,
-        732,
-        611
+        611,
+        732
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23727,8 +23502,8 @@
         320,
         321,
         322,
-        354,
         351,
+        354,
         777
       ],
       "properties:10": {
@@ -23781,9 +23556,9 @@
     },
     "356:10": {
       "preRequisites:11": [
+        293,
         355,
-        367,
-        293
+        367
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25105,8 +24880,8 @@
     },
     "384:10": {
       "preRequisites:11": [
-        275,
-        116
+        116,
+        275
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25236,8 +25011,8 @@
     },
     "386:10": {
       "preRequisites:11": [
-        385,
-        209
+        209,
+        385
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25433,9 +25208,9 @@
     },
     "389:10": {
       "preRequisites:11": [
+        251,
         262,
-        386,
-        251
+        386
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -25593,11 +25368,11 @@
     },
     "391:10": {
       "preRequisites:11": [
-        304,
-        303,
-        302,
+        275,
         301,
-        275
+        302,
+        303,
+        304
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26217,21 +25992,14 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "index:3": 0,
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "deuterium"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "deuterium"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -26414,8 +26182,8 @@
     },
     "404:10": {
       "preRequisites:11": [
-        403,
-        104
+        104,
+        403
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26506,10 +26274,10 @@
     },
     "406:10": {
       "preRequisites:11": [
-        408,
         209,
         386,
-        389
+        389,
+        408
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26604,8 +26372,8 @@
     },
     "407:10": {
       "preRequisites:11": [
-        386,
-        132
+        132,
+        386
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26712,10 +26480,10 @@
     },
     "408:10": {
       "preRequisites:11": [
-        148,
+        104,
         132,
-        386,
-        104
+        148,
+        386
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26874,8 +26642,8 @@
     },
     "411:10": {
       "preRequisites:11": [
-        386,
-        192
+        192,
+        386
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -26983,8 +26751,8 @@
     "412:10": {
       "preRequisites:11": [
         232,
-        527,
-        296
+        296,
+        527
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27097,8 +26865,8 @@
     },
     "413:10": {
       "preRequisites:11": [
-        146,
-        145
+        145,
+        146
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27271,8 +27039,8 @@
     },
     "416:10": {
       "preRequisites:11": [
-        413,
-        163
+        163,
+        413
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27328,20 +27096,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "fish_oil"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "fish_oil"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -30703,20 +30464,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "soldering_alloy"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "soldering_alloy"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -31126,8 +30880,8 @@
     },
     "505:10": {
       "preRequisites:11": [
-        812,
-        504
+        504,
+        812
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -31181,20 +30935,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "bio.ethanol"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "bio.ethanol"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -31291,20 +31038,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "chlorine"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "chlorine"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -31507,19 +31247,23 @@
               "Damage:2": 35,
               "OreDict:8": "",
               "id:8": "enderio:item_material"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "ender_distillation"
-              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "ender_distillation"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -31592,8 +31336,8 @@
     "512:10": {
       "preRequisites:11": [
         197,
-        296,
-        209
+        209,
+        296
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -31862,8 +31606,8 @@
     },
     "517:10": {
       "preRequisites:11": [
-        145,
-        21
+        21,
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -32126,9 +31870,9 @@
     },
     "521:10": {
       "preRequisites:11": [
-        750,
         261,
-        337
+        337,
+        750
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -32193,8 +31937,8 @@
     },
     "522:10": {
       "preRequisites:11": [
-        286,
-        138
+        138,
+        286
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -32651,8 +32395,8 @@
     },
     "529:10": {
       "preRequisites:11": [
-        198,
-        524
+        524,
+        198
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -32790,8 +32534,8 @@
     "531:10": {
       "preRequisites:11": [
         269,
-        391,
-        286
+        286,
+        391
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -32986,10 +32730,15 @@
       }
     },
     "534:10": {
+      "preRequisiteTypes:7": [
+        1,
+        0,
+        0
+      ],
       "preRequisites:11": [
+        288,
         292,
-        750,
-        288
+        750
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -33238,20 +32987,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sterilized_growth_medium"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "sterilized_growth_medium"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -33359,8 +33101,8 @@
     },
     "540:10": {
       "preRequisites:11": [
-        147,
         21,
+        147,
         259
       ],
       "properties:10": {
@@ -33628,8 +33370,8 @@
     },
     "544:10": {
       "preRequisites:11": [
-        488,
-        59
+        59,
+        488
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -33712,8 +33454,8 @@
     },
     "545:10": {
       "preRequisites:11": [
-        544,
-        69
+        69,
+        544
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -34010,7 +33752,8 @@
     "549:10": {
       "preRequisites:11": [
         89,
-        98
+        98,
+        125
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -34125,19 +33868,23 @@
               "Damage:2": 700,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            },
-            "10:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "drilling_fluid"
-              }
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "drilling_fluid"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -34348,9 +34095,9 @@
     },
     "553:10": {
       "preRequisites:11": [
-        552,
+        26,
         296,
-        26
+        552
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -35898,8 +35645,8 @@
     },
     "586:10": {
       "preRequisites:11": [
-        324,
-        313
+        313,
+        324
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -36784,8 +36531,8 @@
     },
     "600:10": {
       "preRequisites:11": [
-        513,
-        298
+        298,
+        513
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -37098,8 +36845,8 @@
     "605:10": {
       "preRequisites:11": [
         564,
-        607,
-        606
+        606,
+        607
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -37335,8 +37082,8 @@
     },
     "609:10": {
       "preRequisites:11": [
-        528,
-        69
+        69,
+        528
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -42419,9 +42166,9 @@
     },
     "685:10": {
       "preRequisites:11": [
-        682,
         34,
-        76
+        76,
+        682
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43105,8 +42852,8 @@
     },
     "694:10": {
       "preRequisites:11": [
-        693,
-        554
+        554,
+        693
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43171,8 +42918,8 @@
     },
     "695:10": {
       "preRequisites:11": [
-        694,
-        243
+        243,
+        694
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -44749,7 +44496,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §aDraconic Evolution Information Tablet§r contains useful information about the mod as well as diagrams for valid Fusion Crafting block placement.\n\nYou might also be interested in the §oDraconic Evolution Fusion Core Automation§r guide linked to in §9#omnicompendium§r in the official §5Omnifactory Tweaked§r Discord server.",
+          "desc:8": "The §aDraconic Evolution Information Tablet§r contains useful information about the mod as well as diagrams for valid Fusion Crafting block placement.\n\nYou might also be interested in the §oDraconic Evolution Fusion Core Automation§r guide linked to in §9#nomicompendium§r in the official §5Nomifactory§r Discord server.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45542,8 +45289,8 @@
     "749:10": {
       "preRequisites:11": [
         325,
-        802,
-        332
+        332,
+        802
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45782,8 +45529,8 @@
     },
     "752:10": {
       "preRequisites:11": [
-        24,
-        19
+        19,
+        24
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45938,8 +45685,8 @@
     },
     "754:10": {
       "preRequisites:11": [
-        510,
-        219
+        219,
+        510
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45978,6 +45725,12 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "contenttweaker:omnicoin5"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:chorus_flower"
             }
           }
         }
@@ -46357,22 +46110,12 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "fire_water"
-              }
-            },
-            "1:10": {
               "Count:3": 2,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "enderstorage:ender_storage"
             },
-            "2:10": {
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
@@ -46380,6 +46123,20 @@
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "fire_water"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -46514,8 +46271,8 @@
     },
     "762:10": {
       "preRequisites:11": [
-        761,
-        754
+        754,
+        761
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46554,8 +46311,8 @@
     },
     "763:10": {
       "preRequisites:11": [
-        754,
-        542
+        542,
+        754
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46620,9 +46377,9 @@
     },
     "764:10": {
       "preRequisites:11": [
-        530,
         86,
-        133
+        133,
+        530
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46770,9 +46527,9 @@
     "768:10": {
       "preRequisites:11": [
         132,
-        264,
+        520,
         525,
-        520
+        264
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46806,10 +46563,10 @@
     },
     "769:10": {
       "preRequisites:11": [
-        155,
-        268,
+        192,
         523,
-        192
+        268,
+        155
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46843,10 +46600,10 @@
     },
     "770:10": {
       "preRequisites:11": [
-        332,
-        292,
+        524,
         269,
-        524
+        292,
+        332
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46916,7 +46673,8 @@
     },
     "772:10": {
       "preRequisites:11": [
-        535
+        535,
+        334
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -46950,8 +46708,8 @@
     },
     "773:10": {
       "preRequisites:11": [
-        172,
-        168
+        168,
+        172
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -47340,8 +47098,8 @@
     },
     "780:10": {
       "preRequisites:11": [
-        688,
-        107
+        107,
+        688
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -47490,8 +47248,8 @@
     },
     "782:10": {
       "preRequisites:11": [
-        400,
-        214
+        214,
+        400
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -48204,8 +47962,8 @@
     },
     "794:10": {
       "preRequisites:11": [
-        793,
-        792
+        792,
+        793
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -48566,9 +48324,9 @@
     },
     "800:10": {
       "preRequisites:11": [
+        162,
         416,
-        807,
-        162
+        807
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -48654,50 +48412,25 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "charcoal_byproducts"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "charcoal_byproducts"
             },
             "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "wood_tar"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "wood_tar"
             },
             "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "wood_gas"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "wood_gas"
             },
             "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "wood_vinegar"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "wood_vinegar"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -48843,8 +48576,8 @@
     },
     "804:10": {
       "preRequisites:11": [
-        286,
-        107
+        107,
+        286
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -48994,20 +48727,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "allyl_chloride"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "allyl_chloride"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -49063,20 +48789,13 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
+          "requiredFluids:9": {
             "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "seed_oil"
-              }
+              "Amount:3": 1000,
+              "FluidName:8": "seed_oil"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -49389,6 +49108,121 @@
       "questID:3": 812,
       "rewards:9": {},
       "tasks:9": {}
+    },
+    "813:10": {
+      "preRequisites:11": [
+        408
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§bPackagedAuto§r is cool, but check this out!\n\nThe §aExtended Processing Pattern Terminal§r is a new device which allows you to encode regular §bApplied Energistics§r patterns with processing recipes that have §eup to 16 ingredients and 6 outputs§r.\n\nThese are extremely useful for automating recipes for complex multiblocks like the §3Assembly Line§r, and avoid some of the pitfalls of §bPackagedAuto§r like round-robin being really awkward since §3Unpackagers§r have internal buffers.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 341,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:part"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Extended Processing Pattern Terminal",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 813,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:omnicoin25"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 341,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:part"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "814:10": {
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A variant of the §aInterface Terminal§r which allows you to view and edit the stocking slots of interfaces on your network, as well as highlight them in-world.\n\nUseful for managing passive automation setups, and finding them when your base gets large.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 521,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:part"
+          },
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Configuration Interface Terminal",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 814,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 521,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:part"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -51420,7 +51254,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "questbook:itemquestbook"
+            "id:8": "betterquesting:quest_book"
           },
           "name:8": "Progression",
           "visibility:8": "ALWAYS"
@@ -52868,6 +52702,13 @@
           "sizeY:3": 24,
           "x:3": -330,
           "y:3": 216
+        },
+        "102:10": {
+          "id:3": 813,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -276,
+          "y:3": -48
         }
       }
     },
@@ -54961,6 +54802,20 @@
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": 480
+        },
+        "38:10": {
+          "id:3": 813,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 208,
+          "y:3": 616
+        },
+        "39:10": {
+          "id:3": 814,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 248,
+          "y:3": 568
         }
       }
     }
