@@ -117,37 +117,39 @@ async function makeChangelog() {
 	// Push the title.
 	builder.push(`# Changes since ${since}`);
 
-	const comparisonResult = await compareAndExpandManifestDependencies(old, current);
+	if(process.env["CFCORE_API_TOKEN"]){
+		const comparisonResult = await compareAndExpandManifestDependencies(old, current);
 
-	// Push mod update blocks.
-	[
-		{
-			name: "## New mods",
-			list: comparisonResult.added,
-		},
-		{
-			name: "## Updated mods",
-			list: comparisonResult.modified,
-		},
-		{
-			name: "## Removed mods",
-			list: comparisonResult.removed,
-		},
-	].forEach((block) => {
-		if (block.list.length == 0) {
-			return;
-		}
+		// Push mod update blocks.
+		[
+			{
+				name: "## New mods",
+				list: comparisonResult.added,
+			},
+			{
+				name: "## Updated mods",
+				list: comparisonResult.modified,
+			},
+			{
+				name: "## Removed mods",
+				list: comparisonResult.removed,
+			},
+		].forEach((block) => {
+			if (block.list.length == 0) {
+				return;
+			}
 
-		builder.push("");
-		builder.push(block.name);
-		builder.push(
-			...block.list
-				// Yeet invalid project names.
-				.filter((project) => !/project-\d*/.test(project))
-				.sort()
-				.map((name) => `* ${name}`),
-		);
-	});
+			builder.push("");
+			builder.push(block.name);
+			builder.push(
+				...block.list
+					// Yeet invalid project names.
+					.filter((project) => !/project-\d*/.test(project))
+					.sort()
+					.map((name) => `* ${name}`),
+			);
+		});
+	}
 
 	// Push the changelog itself.
 	if (commitList) {
