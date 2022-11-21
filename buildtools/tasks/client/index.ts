@@ -96,7 +96,9 @@ async function fetchModList() {
 	log("Fetching mod infos...");
 
 	// Fetch project/addon infos.
-	const modInfos = await fetchProjectsBulk(modpackManifest.files.map((mod) => mod.projectID));
+	const modInfos = process.env["CFCORE_API_TOKEN"]
+		? await fetchProjectsBulk(modpackManifest.files.map((mod) => mod.projectID))
+		: [];
 
 	log(`Fetched ${modInfos.length} mod infos`);
 
