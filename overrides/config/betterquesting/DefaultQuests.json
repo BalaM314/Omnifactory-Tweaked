@@ -10,7 +10,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Sussy imposter amogus would like to let you know that this happens to be quest 0.\nThe main purpose for this device is to turn §6Certus Quartz Crystal§r into §6Charged Certus Quartz Crystal§r.\n\nThis device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables.\n\nIt accepts power from two sides. Which two sides? It\u0027s pretty easy to guess.\n\n\n\n\n\n\n\n\nOk, ok. It\u0027s the top and bottom.\n\n",
+          "desc:8": "(This happens to be quest 0)\nThe main purpose for this device is to turn §6Certus Quartz Crystal§r into §6Charged Certus Quartz Crystal§r.\n\nThis device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables.\n\nIt accepts power from two sides. Which two sides? It\u0027s pretty easy to guess.\n\n\n\n\n\n\n\n\nOk, ok. It\u0027s the top and bottom.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2037,7 +2037,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6Pulsating Dust§r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange and potentially dangerous applications, including the ability to make §6Pulsating Ingots§r and §6Ender Pearls§r.\n\nYour first source of Pulsating Dust is §6Uraninite§r, which you can get from §6Uraninite Ore§r. Later on, you\u0027ll be able to produce Pulsating Dust by smelting §6Resonant Clathrates§r.\n\n§cPlease note that the Enderpearl Dust electrolysis recipe requires an EV Electrolyzer, and is most likely not worth it.§r",
+          "desc:8": "§6Pulsating Dust§r is a mysterious magical material that taps into the power of Ender. It has all sorts of strange and potentially dangerous applications, including the ability to make §6Pulsating Ingots§r and §6Ender Pearls§r.\n\nYour first source of Pulsating Dust is §6Uraninite§r, which you can get from §6Uraninite Ore§r. Later on, you\u0027ll be able to produce Pulsating Dust by smelting §6Resonant Clathrates§r.\n\n§cPlease note that the Enderpearl Dust electrolysis recipe requires an LuV Electrolyzer.§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
