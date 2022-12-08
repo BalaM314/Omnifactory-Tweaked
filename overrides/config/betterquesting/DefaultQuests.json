@@ -33720,12 +33720,6 @@
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
-            "0:10": {
-              "Count:3": 3,
-              "Damage:2": 32300,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
             "1:10": {
               "Count:3": 1,
               "Damage:2": 32308,
