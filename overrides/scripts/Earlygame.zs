@@ -353,8 +353,6 @@ assembler.findRecipe(2, [<minecraft:blaze_powder>,<minecraft:ender_pearl>], [nul
 assembler.findRecipe(2, [<minecraft:ender_pearl> * 6,<minecraft:blaze_rod>], [null]).remove();
 mixer.findRecipe(8, [<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2229>,<gregtech:meta_item_1:2044>], [null]).remove();
 mixer.recipeBuilder().inputs([<ore:dustGold>, <ore:dustSilver>, <ore:dustCopper> * 3]).outputs(<gregtech:meta_item_1:2229> * 5).EUt(8).duration(600).buildAndRegister();
-electrolyzer.findRecipe(30, [null], [<liquid:water> * 1000]).remove();
-electrolyzer.recipeBuilder().fluidInputs([<liquid:water> * 1000]).fluidOutputs([<liquid:hydrogen> * 2000, <liquid:oxygen> * 1000]).EUt(30).duration(750).buildAndRegister();
 
 //Ammonia Recipe: Changes the EU/t
 reactor.findRecipe(384, [<gregtech:meta_item_1:32766>.withTag({Configuration: 1})], [<liquid:nitrogen> * 1000, <liquid:hydrogen> * 3000]).remove();
