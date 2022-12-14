@@ -13744,7 +13744,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Marginally cheaper to make than §6Electronic Processor Arrays§r, and also the only way to make §6Refined Processor Mainframes§r, which is the first Tier Four circuit.",
+          "desc:8": "Marginally cheaper to make than §6Electronic Processor Arrays§r, and also the only way to make §6Refined Processor Mainframes§r, which are the first Tier Four circuits.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
