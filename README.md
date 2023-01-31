@@ -3,14 +3,14 @@ This is a fork of the *Nomifactory* modpack created and maintained by BalaM314. 
 
 The following major things were changed:
 * Added several (Advanced Rocketry) planets. These planets also have a few exclusive ores, for more details see [GuideToThePlanets.md](guides/GuideToThePlanets.md).
-* Add back gas mining, which allows Chlorine to be automated (yay!)
+* Add back gas mining, which allows Chlorine to be automated
 * Added Quark
 * Make Certus Quartz and Garnet anything automateable, through Vitrified Sand
 * Added dogecoin
 
 For the rest of the changes, see [Tweaks.md](guides/Tweaks.md)
 
-This fork *may* also get bug fixes more frequently than main Omnifactory.
+This fork is kinda dead but I might merge upstream every now and then
 
 Roadmap:
 * [ ] Add more elements
