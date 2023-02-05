@@ -160,6 +160,13 @@ recipes.addShaped("oftweaked_cheap_item_filter", <enderio:item_basic_item_filter
     [null, <minecraft:paper>, null],
 ]);
 
+recipes.removeByRecipeName("enderio:filter_fluid");
+recipes.addShaped("oftweaked_cheap_fluid_filter", <enderio:item_fluid_filter> * 2, [
+    [null, <minecraft:paper>, null],
+    [<minecraft:paper>, <minecraft:bucket>, <minecraft:paper>],
+    [null, <minecraft:paper>, null],
+]);
+
 /*
 
   Extra Enderio Glasses
