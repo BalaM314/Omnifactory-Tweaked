@@ -23,12 +23,10 @@ Minor tweaks:
 * Darmstadtium is craftable
 * Gated silicone to HV and added a catalyzed recipe, also tweaked chemistry
 * Added a ridiculous recipe for the NC hyperspace disc
-* Made the Item Filter recipes cheaper
+* Made the filter recipes cheaper
 * Added a Mixer recipe for Black Bronze that uses Gold and Silver dust instead of Electrum
 * Change the manual recipe for Glowstone dust to use Redstone instead of Phosphor dust
 * Allowed compacting drawers to split Enderpearls to Ender Shards(you will need to empty and refill existing drawers)
 * Changed requirements for a few quests(removed Shape Plate from molds, changed input to cef for MV Power quest)
 * Enabled glass cutter (for cutting glass)
-
-
-More are coming soon!
+* Added an alternate recipe for the Compacting Drawer
