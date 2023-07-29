@@ -2152,7 +2152,7 @@ mods.jei.JEI.removeAndHide(<lumberjack:stellaralloy_lumberaxe>);
 
 // Useless Mold/Shape Removal
 mods.jei.JEI.removeAndHide(<metaitem:shape.mold.cylinder>);
-mods.jei.JEI.removeAndHide(<metaitem:shape.mold.credit>);
+//mods.jei.JEI.removeAndHide(<metaitem:shape.mold.credit>); //Dogecoin to the moon!
 mods.jei.JEI.removeAndHide(<metaitem:shape.mold.bottle>);
 mods.jei.JEI.removeAndHide(<metaitem:shape.extruder.bottle>);
 
