@@ -13959,7 +13959,7 @@
             "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "",
+              "OreDict:8": "questbookAR2GasTank",
               "id:8": "advancedrocketry:pressuretank"
             },
             "2:10": {
