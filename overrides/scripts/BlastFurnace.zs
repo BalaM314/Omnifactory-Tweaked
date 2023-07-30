@@ -60,7 +60,6 @@ blast_furnace.findRecipe(120, [<gregtech:meta_item_1:10018>, <gregtech:meta_item
 blast_furnace.recipeBuilder()
 	.inputs([<gregtech:meta_item_1:10018>])
 	.fluidInputs([<liquid:oxygen> * 1000])
-	.circuit(1)
 	.outputs([<gregtech:meta_item_1:10087>])
 	.property("temperature", 1000)
 	.duration(200).EUt(120).buildAndRegister();
