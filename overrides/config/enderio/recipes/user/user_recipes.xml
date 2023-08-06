@@ -10,6 +10,14 @@
 <recipe name="Gear, Stone, Upgrade" disabled="true" />
 
 
- <recipe name="Smelting: Osmium Dust" disabled="true"/>
+<recipe name="Smelting: Osmium Dust" disabled="true"/>
+<recipe name="Enchanter: minecraft:protection" disabled="true" />
+<recipe name="Enchanter: minecraft:protection" required="true" disabled="false">
+	<enchanting>
+		<input name="simplyjetpacks:metaitemmods:15" amount="1"/>
+		<enchantment name="minecraft:protection" costMultiplier="1"/>
+	</enchanting>
+</recipe>
+</recipe>
 
 </enderio:recipes>
