@@ -12,7 +12,7 @@
 
 <recipe name="Smelting: Osmium Dust" disabled="true"/>
 <recipe name="Enchanter: minecraft:protection" disabled="true" />
-<recipe name="Enchanter: minecraft:protection" required="true" disabled="false">
+<recipe name="Enchanter: cheapened protection" required="true" disabled="false">
 	<enchanting>
 		<input name="simplyjetpacks:metaitemmods:15" amount="1"/>
 		<enchantment name="minecraft:protection" costMultiplier="1"/>
