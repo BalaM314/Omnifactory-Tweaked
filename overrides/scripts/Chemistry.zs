@@ -45,6 +45,6 @@ electrolyzer.recipeBuilder()
 electrolyzer.findRecipe(30, [<gregtech:meta_item_1:2239>], [null]).remove();
 electrolyzer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2239>)
-	.outputs(<gregtech:meta_item_1:2011> * 3, <gregtech:meta_item_1:2139> * 10)\
+	.outputs(<gregtech:meta_item_1:2011> * 3, <gregtech:meta_item_1:2139> * 10)
 	.duration(600).EUt(30)
 	.buildAndRegister();
