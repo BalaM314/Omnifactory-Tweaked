@@ -33,9 +33,18 @@ reactor.recipeBuilder()
 	.duration(720).EUt(384)
 	.buildAndRegister();
 
-//Fix apatite electrolyis
+//Fix phosphate-related ratio issues
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2226>], [null]).remove();
 electrolyzer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2226>)
 	.outputs(<gregtech:meta_item_1:2011> * 5, <gregtech:meta_item_1:2139> * 12)
 	.fluidOutputs(<liquid:chlorine> * 1000)
+	.duration(1152).EUt(60)
+	.buildAndRegister();
+
+electrolyzer.findRecipe(30, [<gregtech:meta_item_1:2239>], [null]).remove();
+electrolyzer.recipeBuilder()
+	.inputs(<gregtech:meta_item_1:2239>)
+	.outputs(<gregtech:meta_item_1:2011> * 3, <gregtech:meta_item_1:2139> * 10)\
+	.duration(600).EUt(30)
+	.buildAndRegister();
