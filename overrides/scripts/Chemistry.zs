@@ -37,7 +37,7 @@ reactor.recipeBuilder()
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2226> * 9], [null]).remove();
 electrolyzer.recipeBuilder()
 	.inputs(<gregtech:meta_item_1:2226> * 9)
-	.outputs(<gregtech:meta_item_1:2011> * 5, <gregtech:meta_item_1:2139> * 12)
+	.outputs(<gregtech:meta_item_1:2011> * 5, <gregtech:meta_item_1:2139> * 15)
 	.fluidOutputs(<liquid:chlorine> * 1000)
 	.duration(1152).EUt(60)
 	.buildAndRegister();
