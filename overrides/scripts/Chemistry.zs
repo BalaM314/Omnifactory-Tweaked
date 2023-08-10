@@ -34,17 +34,17 @@ reactor.recipeBuilder()
 	.buildAndRegister();
 
 //Fix phosphate-related ratio issues
-electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2226>], [null]).remove();
+electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2226> * 9], [null]).remove();
 electrolyzer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2226>)
+	.inputs(<gregtech:meta_item_1:2226> * 9)
 	.outputs(<gregtech:meta_item_1:2011> * 5, <gregtech:meta_item_1:2139> * 12)
 	.fluidOutputs(<liquid:chlorine> * 1000)
 	.duration(1152).EUt(60)
 	.buildAndRegister();
 
-electrolyzer.findRecipe(30, [<gregtech:meta_item_1:2239>], [null]).remove();
+electrolyzer.findRecipe(30, [<gregtech:meta_item_1:2239> * 5], [null]).remove();
 electrolyzer.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:2239>)
+	.inputs(<gregtech:meta_item_1:2239> * 5)
 	.outputs(<gregtech:meta_item_1:2011> * 3, <gregtech:meta_item_1:2139> * 10)
 	.duration(600).EUt(30)
 	.buildAndRegister();
