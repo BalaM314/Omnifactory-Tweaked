@@ -10,6 +10,7 @@ Major tweaks:
 * Added dogecoin
 
 Minor tweaks:
+* Made protection enchant cheaper (64 dark steel per book -> 20 dark steel per book)
 * Make airtight seal cheaper
 * Made air collectors work in space(because yes)
 * Made extruders better at making small gears than alloy smelters
@@ -30,3 +31,5 @@ Minor tweaks:
 * Changed requirements for a few quests(removed Shape Plate from molds, changed input to cef for MV Power quest)
 * Enabled glass cutter (for cutting glass)
 * Added an alternate recipe for the Compacting Drawer
+* Made Suit Workstation and Extruder quests accept any tier
+* Fixed electrolysis of phosphate-related things
