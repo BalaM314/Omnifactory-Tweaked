@@ -102,10 +102,15 @@ recipes.addShaped(<storagedrawers:compdrawers>, [
 	[<gregtech:meta_item_1:32640>, <storagedrawers:customdrawers>, <gregtech:meta_item_1:32640>],
 	[<gregtech:meta_item_1:12033>,<gregtech:meta_item_1:12033>,<gregtech:meta_item_1:12033>]]);
 
-recipes.addShaped("oftweaked_aluminium_compdrawer", <storagedrawers:compdrawers> * 5, [
+recipes.addShaped("oftweaked_aluminium_compdrawer", <storagedrawers:compdrawers> * 2, [
 	[<ore:plateAluminium>, <storagedrawers:customdrawers>, <ore:plateAluminium>],
 	[<actuallyadditions:item_crystal:3>, <gregtech:metal_casing:4>, <actuallyadditions:item_crystal:3>],
 	[<ore:plateAluminium>, <gregtech:meta_item_1:32641>, <ore:plateAluminium>]
+]);
+recipes.addShaped("oftweaked_tungstensteel_compdrawer", <storagedrawers:compdrawers> * 5, [
+	[<ore:plateTungstenSteel>, <storagedrawers:customdrawers>, <ore:plateTungstenSteel>],
+	[<actuallyadditions:item_crystal_empowered:3>, <gregtech:metal_casing:6>, <actuallyadditions:item_crystal_empowered:3>],
+	[<ore:plateTungstenSteel>, <gregtech:meta_item_1:32643>, <ore:plateTungstenSteel>]
 ]);
 
 recipes.addShaped(<storagedrawers:controller>, [
