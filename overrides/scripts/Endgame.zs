@@ -226,6 +226,7 @@ fusion_reactor.recipeBuilder()
     .property("eu_to_start", 400000000)
     .buildAndRegister();
 
+//Just for fun!
 fusion_reactor.recipeBuilder()
 	.fluidInputs([<liquid:neutronium> * 1, <liquid:tritanium> * 32])
     .fluidOutputs(<liquid:darmstadtium> * 32)
@@ -233,7 +234,7 @@ fusion_reactor.recipeBuilder()
     .EUt(15360)
     .property("eu_to_start", 400000000)
     .buildAndRegister();
-//Just for fun!
+
 
 // LuV Machine Casing
 recipes.remove(<gregtech:machine_casing:6>);

@@ -1652,6 +1652,7 @@ mods.jei.JEI.removeAndHide(<extendedcrafting:material:36>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:material:37>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:material:41>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:material:48>);
+mods.jei.JEI.removeAndHide(<extendedcrafting:material:49>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:material:128>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:material:129>);
 mods.jei.JEI.removeAndHide(<extendedcrafting:singularity>);
