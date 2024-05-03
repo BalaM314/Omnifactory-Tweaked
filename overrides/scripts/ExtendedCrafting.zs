@@ -1568,7 +1568,7 @@ makeExtremeRecipe7(<gregtech:meta_tool:7>.withTag({"GT.ToolStats": {Material: "d
       D : <ore:ingotDarmstadtium>,
       L : <ore:stickLongDarmstadtium> });
 
-recipes.remove(<gregtech:plunger_darmstadtium>);
+recipes.removeByRecipeName(<gregtech:plunger_darmstadtium>);
 makeExtremeRecipe7(<gregtech:meta_tool:37>.withTag({"GT.ToolStats": {Material: "darmstadtium"}}),
     ["   TT  ",
      "   TRP  ",
