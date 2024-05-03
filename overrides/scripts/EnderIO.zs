@@ -380,3 +380,43 @@ for dust in materialList {
 recipes.addShapeless(<enderio:block_cap_bank:1>, [<enderio:block_cap_bank:1>]);
 recipes.addShapeless(<enderio:block_cap_bank:2>, [<enderio:block_cap_bank:2>]);
 recipes.addShapeless(<enderio:block_cap_bank:3>, [<enderio:block_cap_bank:3>]);
+
+/*
+    Fix GT versions of EIO blocks being made in Alloy Smelter and Extruder with block mold/shape
+*/
+
+val blocksToFix as IItemStack[][] = [
+    [<enderio:block_alloy:0>, <enderio:item_alloy_ingot:0>, <gregtech:meta_block_compressed_44:1>],
+    [<enderio:block_alloy:1>, <enderio:item_alloy_ingot:1>, <gregtech:meta_block_compressed_43:13>],
+    [<enderio:block_alloy:2>, <enderio:item_alloy_ingot:2>, <gregtech:meta_block_compressed_43:14>],
+    [<enderio:block_alloy:4>, <enderio:item_alloy_ingot:4>, <gregtech:meta_block_compressed_43:12>],
+    [<enderio:block_alloy:5>, <enderio:item_alloy_ingot:5>, <gregtech:meta_block_compressed_43:15>],
+    [<enderio:block_alloy:6>, <enderio:item_alloy_ingot:6>, <gregtech:meta_block_compressed_44:0>],
+    [<enderio:block_alloy:8>, <enderio:item_alloy_ingot:8>, <gregtech:meta_block_compressed_44:8>]
+] as IItemStack[][];
+
+for i,block in blocksToFix {
+
+    // Fix GT variant block in Alloy Smelter
+    alloy.findRecipe(32, [block[1] * 9, <gregtech:meta_item_1:32308>], [null]).remove();
+    alloy.recipeBuilder()
+         .inputs([block[1] * 9])
+         .notConsumable(<gregtech:meta_item_1:32308>)
+         .outputs(block[0])
+         .duration(6).EUt(32).buildAndRegister();
+
+    // Fix GT variant block in Extruder
+    extruder.findRecipe(64, [block[1] * 9, <gregtech:meta_item_1:32363>], [null]).remove();
+    extruder.recipeBuilder()
+            .inputs([block[1] * 9])
+            .notConsumable(<gregtech:meta_item_1:32363>)
+            .outputs(block[0])
+            .duration(10).EUt(64).buildAndRegister();
+
+    // Add way to deconstruct the GT variant block into usable ingots
+    recipes.addShapeless("decomp_gt_eio_block_"+i,
+        block[1] * 9,
+        [block[2]]
+    );
+
+}
