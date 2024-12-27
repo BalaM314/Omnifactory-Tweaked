@@ -249,8 +249,7 @@ recipes.addShapeless(
 
 //Moon Materials
 macerator.findRecipe(8, [<minecraft:blaze_rod>], [null]).remove();
-macerator.recipeBuilder().inputs([<advancedrocketry:moonturf>]).outputs([<contenttweaker:moondust>]).duration(200).EUt(400).buildAndRegister();
-macerator.recipeBuilder().inputs([<advancedrocketry:moonturf_dark>]).outputs([<contenttweaker:moondust>]).duration(200).EUt(400).buildAndRegister();
+macerator.recipeBuilder().inputs([<ore:turfMoon>]).outputs([<contenttweaker:moondust>*2]).duration(200).EUt(400).buildAndRegister();
 macerator.recipeBuilder().inputs([<minecraft:blaze_rod>]).outputs([<minecraft:blaze_powder> * 4]).duration(200).EUt(16).buildAndRegister();
 macerator.recipeBuilder().inputs([<thermalfoundation:material:2048>]).outputs([<thermalfoundation:material:2049> * 4]).duration(200).EUt(16).buildAndRegister();
 macerator.recipeBuilder().inputs([<thermalfoundation:material:2050>]).outputs([<thermalfoundation:material:2051> * 4]).duration(200).EUt(16).buildAndRegister();

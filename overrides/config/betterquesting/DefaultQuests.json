@@ -88,7 +88,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §3Crystal Growth Chamber§r allows you to perform §bApplied Energistics§r\u0027s world crafting recipes inside of a machine. Hooray, you never have to drop more things in water again!\n\nIt is used for growing §6Crystal Seeds§r into §6Pure Crystals§r, and also for creating §6Fluix Crystals§r.\n\nJEI doesn\u0027t show the Chamber\u0027s recipes directly, so we\u0027ll explain it here:\n\nSeeds are made by pulverizing any of the three crystal types and mixing the dust with sand. A seed grows into the corresponding Pure Crystal, which is substitutable for the original crystal in most recipes. Using Pure Crystals lets you effectively double your material efficiency, which is nice. And no, you can\u0027t grind down Pure Crystals to further multiply your resources. Sorry.\n\nFluix Crystals you\u0027ve already had to make in a pool of water by now, and it\u0027s the same ingredients here: insert one each of a §6Redstone Dust§r, §6Charged Certus Quartz Crystal§r, and a §6Nether Quartz§r to produce two Fluix Crystals.",
+          "desc:8": "The §3Crystal Growth Chamber§r allows you to perform §bApplied Energistics§r\u0027s world crafting recipes inside of a machine. Hooray, you never have to drop more things in water again!\n\nIt is used for growing §6Crystal Seeds§r into §6Pure Crystals§r, and also for creating §6Fluix Crystals§r.\n\nThis machine requires §eAE power§r, which is provided through §aME Network§r connection. Placing it next to your §3Energy Acceptor§r accomplishes this for now.\n\nJEI doesn\u0027t show the Chamber\u0027s recipes directly, so we\u0027ll explain it here:\n\nSeeds are made by pulverizing any of the three crystal types and mixing the dust with sand. A seed grows into the corresponding Pure Crystal, which is substitutable for the original crystal in most recipes. Using Pure Crystals lets you effectively double your material efficiency, which is nice. And no, you can\u0027t grind down Pure Crystals to further multiply your resources. Sorry.\n\nFluix Crystals you\u0027ve already had to make in a pool of water by now, and it\u0027s the same ingredients here: insert one each of a §6Redstone Dust§r, §6Charged Certus Quartz Crystal§r, and a §6Nether Quartz§r to produce two Fluix Crystals.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2742,7 +2742,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oNote: this quest accepts the 4x or 16x CEF (LV).§r\n\nUntil now you have been generating §aRF power§r with your §3Steam Dynamos§r, but §bGregTech§r machines require §aEU power§r. With your first §6circuit§r in hand, you are ready to build a §eLow Voltage (LV) §3CEF§r.\n\nThe §3CEF§r is a special device that §econverts §aRF power§r into §aEU power§r. CEFs come in two sizes: §e4 Amps§r and §e16 Amps§r, which have 4 and 16 inventory slots, respectively. Each slot in a CEF can hold a single §6Battery§r.\n\nYou don\u0027t §oneed§r to put §bGregTech§r batteries inside the CEF§r, but keep in mind that §ethe CEF will be restricted to at most outputting one amp per battery inside§r if you do. With no batteries, they will output up to their rated number of amps as needed.\n\n§aRF§r converts into §aEU§r at a §e4 to 1 ratio§r. §a100 RF§r becomes §a25 EU§r, and vice-versa. If you ever switch over to being primarily powered by §aEU§r, a device called the §3CEU§r can switch power from §aEU§r into §aRF§r.",
+          "desc:8": "§oNote: this quest accepts the 4x or 16x CEF (LV).§r\n\nUntil now you have been generating §aRF power§r with your §3Steam Dynamos§r, but §bGregTech§r machines require §aEU power§r. With your first §6circuit§r in hand, you are ready to build a §eLow Voltage (LV) §3CEF§r.\n\nThe CEF is a special device that §econverts RF power into EU power§r. CEFs come in two sizes: §e4 Amps§r and §e16 Amps§r, which have 4 and 16 inventory slots, respectively. Each slot in a CEF can hold a single §6Battery§r item.\n\nYou don\u0027t §oneed§r to put any batteries inside the CEF§r, as CEFs have their own power buffer and will always output up to their rated number of amps. Batteries simply provide extra storage capacity, and at early tiers the §6Flux Capacitor§r is superior to §bGregTech§r batteries both in cost and energy capacity.\n\n§aRF§r converts into §aEU§r at a §e4 to 1 ratio§r. §a100 RF§r becomes §a25 EU§r, and vice-versa. A corresponding device called the §3CEU§r can switch power from §aEU§r into §aRF§r, but is otherwise identical to how a CEF works.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7632,7 +7632,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§aME Interfaces§r are extremely important for automation. You\u0027ll be making a lot of these, if you\u0027re playing the pack right.\n\nThese can be filled with encoded §aPatterns§r to perform on-demand autocrafting, and can be configured to stock up to 9 stacks of items for passive autocrafting, Any item pushed into an ME Interface is digitized and placed in your ME Network storage.\n\nWhen adjacent to one or more §aMolecular Assemblers§r, crafting table patterns can be crafted. It will use as many adjacent Molecular Assemblers as possible, restricted by availability and number of §aCo-processors§r in your crafting CPU multiblock.\n\nWhen adjacent to any other block, you can use processing patterns with a machine to insert items into the machine. Processing patterns require that the finished item is inserted back into the ME Network by way of an ME Interface (though it doesn\u0027t need to be the same ME Interface the Pattern is in).\n\nME Interfaces can be wrenched to ensure they only communicate with a particular adjacent block, or can be crafted into a micropart form to fit multiple in the same block space (each micropart only interacting with the adjacent block face).\n\n",
+          "desc:8": "§aME Interfaces§r are extremely important for automation. You\u0027ll be making a lot of these, if you\u0027re playing the pack right.\n\nThese can be filled with encoded §aPatterns§r to perform on-demand autocrafting, and can be configured to stock up to 9 stacks of items for passive autocrafting, Any item pushed into an ME Interface is digitized and placed in your ME Network storage.\n\nWhen adjacent to one or more §aMolecular Assemblers§r, crafting table patterns can be crafted. It will use as many adjacent Molecular Assemblers as possible, restricted by availability and number of §aCo-processors§r in your crafting CPU multiblock.\n\nWhen adjacent to any other block, you can use processing patterns with a machine to insert items into the machine. Processing patterns require that the finished item is inserted back into the ME Network by way of an ME Interface (though it doesn\u0027t need to be the same ME Interface the Pattern is in).\n\nME Interfaces can be wrenched to ensure they only communicate with a particular adjacent block, or can be crafted into a micropart form to fit multiple in the same block space (each micropart only interacting with the adjacent block face).\n\nLocking mode will prevent an Interface from sending more ingredients until one of various conditions are met. For example, if a craft is very slow you can prevent the interface from putting more ingredients into the machine until the previous craft finishes, so a different interface with the same pattern can handle that request instead. Other options include enabling/disabling the Interface with redstone.\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11868,7 +11868,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Note: this quest accepts LV/MV/HV/EV §3Air Collectors§r.\n\nAn §3Air Collector§r will suck up air at a decent rate, provided the top side is unobstructed. The collected Air is automatically ejected into an adjacent tank via the output face.\n\nIV and LuV air collectors are not part of this quest, but for reference they exist and are called §3Atmosphere Collectors§r.\n\n",
+          "desc:8": "Note: this quest accepts LV/MV/HV/EV §3Air Collectors§r.\n\nAn §3Air Collector§r will suck up air at a decent rate, provided the top side is unobstructed. The collected Air is automatically ejected into an adjacent tank via the output face.\n\nIV and LuV air collectors are not part of this quest, but they are also available.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -48622,7 +48622,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The §6Processing Array§r is a §bGregTech§r multiblock that allows for processing multiple recipes in parallel in a single stucture and is extremely useful for saving space.\n\nUp to 16 of the same recipe can be processed in parallel by placing the machines for the recipe in exactly one §aMachine Access Interface§r in the multiblock structure, as well as the ingredients and non-consumable items (like §6Integrated Circuits§r) for the recipe you want to process in one or more input buses. While a recipe is running, the Machine Access Interface is §elocked§r and machines cannot be added or removed.\n\nNote that each machine will still draw the full voltage required for the recipe, which may be more than a single §aEnergy Input Hatch§r can provide. This is why the §6Processing Array§r has an astounding Hatch limit, and can support up to §e8 Energy Inputs§r on the structure. This allows you to get the needed 16 Amps of power to the machine from a single tier-appropriate §3CEF§r.\n\nProcessing Arrays distribute their buffered power at the appropriate voltage, so there\u0027s no danger of your machines exploding if you, for example, operate 16 HV machines off one amp of IV power.\n\nBecause the required number of Inputs, Outputs, and Casings is highly variable, this quest only asks you to craft the §6Processing Array Controller§r and the §aMachine Access Interface§r. Make sure your buses and hatches are large enough to hold the ingredients and outputs for the number of parallel crafts you\u0027re attempting, and that you\u0027re providing enough power for all those machines!\n\nAn advanced feature of the Processing Array is §eDistinct Bus Mode§r. This makes the Processing Array only consider a single item input bus at a time when determining whether it can run a recipe. This is useful when recipes for a particular machine require different catalyst items, like §6Integrated Circuits§r on different configurations or §6Extruder Shapes§r.\n\nDistinct Bus Mode may be enabled or disabled via the Processing Array controller by clicking in the designated area.\n\n",
+          "desc:8": "The §6Processing Array§r is a §bGregTech§r multiblock that allows for processing machine recipes in parallel. It is extremely useful for simplifying logistics and saving space.\n\nUp to 16 of the same recipe can be processed in parallel by placing the machines for the recipe in exactly one §aMachine Access Interface§r in the multiblock structure, as well as the ingredients and non-consumable items (like §6Integrated Circuits§r) for the recipe you want to process in one or more input buses. Unlike most other multiblock parts, §ethe Machine Access Interface is not shareable§r.\n\nRemoving the machines while a recipe is running will §ejam§r the Processing Array, and the recipe will not progress until the machines are replaced. The type, tier, and quantity of machines used by the running recipe are displayed in the GUI, and while jammed (and machines are the cause) it will also display the detected machines.\n\nNote that each machine will still draw the full voltage required for the recipe, which may be more than a single §aEnergy Input Hatch§r can provide. This is why the Processing Array has an astounding Hatch limit, and can support up to §e8 Energy Inputs§r on the structure. This allows you to get the needed 16 Amps of power to the machine from a single tier-appropriate §3CEF§r.\n\nProcessing Arrays distribute their buffered power at the appropriate voltage, so there\u0027s no danger of your machines exploding if you, for example, operate 16 HV machines off one amp of IV power.\n\nBecause the required number of Inputs, Outputs, and Casings is highly variable, this quest only asks you to craft the §6Processing Array Controller§r and the §aMachine Access Interface§r. Make sure your buses and hatches are large enough to hold the ingredients and outputs for the number of parallel crafts you\u0027re attempting, and that you\u0027re providing enough power for all those machines!\n\nAn advanced feature of the Processing Array is §eDistinct Bus Mode§r. This makes the Processing Array only consider a single item input bus at a time when determining whether it can run a recipe. This is useful when recipes for a particular machine require different catalyst items, like §6Integrated Circuits§r on different configurations or §6Extruder Shapes§r. Note that distinct mode §cdoes not apply to fluids§r: all available fluids are considered when searching for recipes.\n\nDistinct Bus Mode may be enabled or disabled via the Processing Array controller by clicking in the designated area.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -51297,6 +51297,640 @@
               "Damage:2": 716,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "834:10": {
+      "preRequisites:11": [
+        267,
+        391,
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §3Matter Condenser§r accepts large quantities of items or fluids to turn into data, which can ultimately be converted into a §6Matter Ball§r or a §6Singularity§r.\n\nA storage component is needed for holding this data, and specifically a §664k Storage Component§r is required for enough data to make a Singularity.\n\nSingularities are required for linking together §aQuantum Link Chambers§r, and for crafting §aME Storage Exposers§r.\n\nFor the former, you want to detonate a §6Tiny TNT§r with a Singularity dropped on the ground next to it. This will create a pair of §6Quantum Entangled Singularities§r, which you can place inside of a Quantum Link Chamber to connect them together.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:condenser"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Matter Condenser",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 834,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:omnicoin5"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:condenser"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 47,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "835:10": {
+      "preRequisites:11": [
+        834
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The §aME Storage Exposer§r provides automation access to every item and fluid stored inside of your ME Network.\n\nIt\u0027s a lot like a §aController Slave§r from §bStorage Drawers§r: you can directly interact with this block using §6conduits§r, §6machine covers§r, or even other ME parts like §aStorage Buses§r or §aP2P§r.\n\n§cThis functionality comes with a performance cost§r: the more things exposed by this block to automation, the more impact on TPS there will be. Use §efiltered subnets§r to expose just the relevant contents.\n\nFor example, you can create a subnet consisting of an §aOre Dictionary Storage Bus§r and an Exposer so that the exposer only sees very specific items from the main network. If you wanted to expose all ores from your network to this subnet, you could use §eore*§r in the Storage Bus\u0027s filter, and automation would have access to all your ores.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:exposer"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "ME Storage Exposer",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 835,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:omnicoin5"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:exposer"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "836:10": {
+      "preRequisiteTypes:7": [
+        1
+      ],
+      "preRequisites:11": [
+        105
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aCards§r are used to augment various machines from §bApplied Energistics§r with additional capabilities. The tooltip of each card indicates what machines will accept that card and how many copies of that card can be used in the same machine.\n\nThe §6Basic Card§r is the component for several useful cards:\n\nThe §aCapacity Card§r increases the number of available configuration slots (or storage slots in the the §aPattern Multi-Tool§r).\n\nThe §aRedstone Card§r allows you to control that machine with redstone.\n\nThe §aSticky Card§r augments storage devices to make items or fluids in their filter exclusively route to those destinations, ensuring they don\u0027t enter the ME Network at all if they won\u0027t fit in the designated storage.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 25,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:material"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Cards",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 836,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 27,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 26,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 61,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "837:10": {
+      "preRequisites:11": [
+        836
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aCrafting Cards§r are a useful tool for automation.\n\nThis card will generate crafting requests from the machine it is augmenting. In the case of an §aME Interface§r, crafting requests will be generated to keep the items in its stocking slots filled to the specified number. §eNote that you can expose these stocked items back to the network with a§r §aStorage Bus§r.\n\nRequests are made just like when you order them manually, except it will prioritize using the §osmallest§r available valid crafting computer.\n\nFor this reason you should consider adding a separate §31k Crafting Storage§r as its own computer each time you use one of these cards, to prevent your main computers from being tied up with these crafting requests. If your craft doesn\u0027t fit into that, maybe reconsider using a crafting card for that item.\n\nThis card has been maligned for producing lag and performing poorly, which was definitely true in §bAE2§r back in 2020. §eHowever, these issues have long since been addressed in §r§bAE2-UEL§r§e, and are no longer a problem§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 53,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:material"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Crafting Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 837,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 53,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:crafting_storage_1k"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "838:10": {
+      "preRequisites:11": [
+        837
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Recipes dispatched by an §aME Interface§r with a §aJob Auto-Complete Card§r will complete without waiting for any specified outputs.\n\n§d\"Well that\u0027s kind of odd, why would I want that?\"§r\nGreat question!\n\nThere\u0027s an old trick called the \"paper trick\" where people would rename a paper in an anvil to create a unique item, set that as the output of a processing pattern, and cycle the paper out and back into the network after depositing the ingredients to trick §bAE2§r into \"completing\" the craft. §eThis card achieves the same thing but without item cycling§r.\n\nThis is frequently used for ordering an entire multiblock\u0027s components to dump into a chest for convenient building, which obviously doesn\u0027t have an output item as it\u0027s not a conventional craft.\n\nAnother common use is to send off a §6Micro Miner§r mission for resources that are dumped into a processing pipeline (so you don\u0027t need to wait for it to actually finish). In this case it\u0027s also §esafer to use the trick, as you can inadvertently create cycles in the crafting tree if you\u0027re not careful§r. The Naquadah mission, for example, can end up depending on itself if the system is told the Miner mission outputs Naquadah dust.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": "",
+            "id:8": "nae2:upgrade"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Job Auto-Complete Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 838,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "nae2:upgrade"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "839:10": {
+      "preRequisiteTypes:7": [
+        1,
+        0
+      ],
+      "preRequisites:11": [
+        105,
+        30
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Advanced Cards augment machines with special capabilities:\n\nThe §aAcceleration Card§r makes machines operate faster.\n\nThe §aInverter Card§r reverses the logic of a machine, like turning a whitelist into a blacklist.\n\nThe §aFuzzy Card§r will make filters partially rather than exactly match the specified items.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 28,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:material"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced Cards",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 839,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 30,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 31,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 29,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "840:10": {
+      "preRequisites:11": [
+        834,
+        839
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "An even faster version of the §aAcceleration Card§r, though it only works in an §3ME IO Port§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:upgrade"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Hyper-Acceleration Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 840,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:omnicoin5"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:upgrade"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "841:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1
+      ],
+      "preRequisites:11": [
+        839,
+        109
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aPattern Expansion Cards§r increase the number of pattern slots that an §aME Interface§r can use by 9 each, up to a maximum of 36 patterns with 3 cards.\n\nThese cards cost an Interface to make, but allow you to densely pack patterns into individual interfaces.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 58,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:material"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pattern Expansion Card",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 841,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:omnicoin25"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 3,
+              "Damage:2": 58,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:material"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "842:10": {
+      "preRequisiteTypes:7": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "preRequisites:11": [
+        64,
+        102,
+        105,
+        834
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§aVoid Storage Cells§r can be placed anywhere a regular storage cell is allowed, but §call items or fluids that enter the cell are voided to create data for the§r §3Matter Condenser§r.\n\nAs such, you should §cbe extremely careful§r and partition the cell to filter which items or fluids are allowed to be voided using a §aCell Workbench§r.\n\nOne possible use case is putting them in an §3ME IO Port§r to mass-void junk items from your storage.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nae2:fluid_storage_cell_void",
+            "tag:10": {}
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Void Storage Cells",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 842,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:omnicoin5"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:material"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:cell_workbench"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:fluid_storage_cell_void",
+              "tag:10": {}
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nae2:storage_cell_void",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:optional_retrieval"
@@ -56732,7 +57366,7 @@
           "id:3": 107,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
+          "x:3": -104,
           "y:3": 568
         },
         "16:10": {
@@ -56970,7 +57604,7 @@
           "id:3": 824,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -200,
+          "x:3": -104,
           "y:3": 608
         },
         "50:10": {
@@ -57028,6 +57662,69 @@
           "sizeY:3": 24,
           "x:3": 200,
           "y:3": 320
+        },
+        "58:10": {
+          "id:3": 834,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": 568
+        },
+        "59:10": {
+          "id:3": 835,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": 608
+        },
+        "60:10": {
+          "id:3": 836,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -224,
+          "y:3": 568
+        },
+        "61:10": {
+          "id:3": 837,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -224,
+          "y:3": 608
+        },
+        "62:10": {
+          "id:3": 838,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -224,
+          "y:3": 648
+        },
+        "63:10": {
+          "id:3": 839,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -184,
+          "y:3": 568
+        },
+        "64:10": {
+          "id:3": 840,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -184,
+          "y:3": 608
+        },
+        "65:10": {
+          "id:3": 841,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -184,
+          "y:3": 648
+        },
+        "66:10": {
+          "id:3": 842,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -144,
+          "y:3": 648
         }
       }
     }
