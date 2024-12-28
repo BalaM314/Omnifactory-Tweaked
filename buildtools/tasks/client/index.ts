@@ -85,10 +85,10 @@ function copyClientChangelog() {
  */
 function copyClientOverrides() {
 	try {
-	return gulp
-		.src(buildConfig.copyFromSharedClientGlobs, { nodir: true, cwd: sharedDestDirectory, allowEmpty: true })
-		.pipe(gulp.symlink(upath.join(clientDestDirectory, "overrides")));
-	} catch(err){
+		return gulp
+			.src(buildConfig.copyFromSharedClientGlobs, { nodir: true, cwd: sharedDestDirectory, allowEmpty: true })
+			.pipe(gulp.symlink(upath.join(clientDestDirectory, "overrides")));
+	} catch (err) {
 		throw new Error("Failed to create a symlink. You may need to run as administrator.\n\n" + err.message);
 	}
 }
