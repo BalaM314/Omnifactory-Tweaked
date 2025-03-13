@@ -2537,6 +2537,10 @@ pulsatingMeshOre.add(<forestry:crafting_material:1>);
 // Fix smashing enchant giving resonating redstone crystals
 <ore:gemRedstone>.remove(<extrautils2:ingredients:0>);
 
+// Add oredicts for Radium Salt so it works with oredict filtering
+<ore:dustRadiumSalt>.add(<contenttweaker:radiumsalt>);
+<ore:dustRegularRadiumSalt>.add(<contenttweaker:radiumsalt>);
+
 /////////////////////////////////
 //  One Ingot To Rule Them All //
 /////////////////////////////////
