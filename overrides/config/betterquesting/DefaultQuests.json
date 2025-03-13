@@ -26995,6 +26995,15 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "contenttweaker:omnicoin25"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "patchouli:guide_book",
+              "tag:10": {
+                "patchouli:book:8": "packagedauto:guide"
+              }
             }
           }
         }
