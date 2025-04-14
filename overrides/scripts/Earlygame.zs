@@ -257,9 +257,8 @@ recipes.addShaped(<gregtech:machine:2022>, [
 recipes.remove(<gregtech:machine:2023>);
 recipes.addShaped(<gregtech:machine:2023>, [
 	[<metaitem:electric.piston.uv>, <metaitem:electric.motor.uv>, <ore:toolHeadBuzzSawNeutronium>],
-	[<ore:cableGtQuadrupleNaquadahAlloy>, <ore:cableGtQuadrupleNaquadahAlloy>, <gregtech:machine:508>],
-	[<ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <ore:cableGtQuadrupleNaquadahAlloy>]]);
-//I'm planning to maybe eventually switch all UV machines to 4x cables instead of wires
+	[<ore:wireGtQuadrupleNaquadahAlloy>, <ore:wireGtQuadrupleNaquadahAlloy>, <gregtech:machine:508>],
+	[<ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <ore:wireGtQuadrupleNaquadahAlloy>]]);
 
 
 
