@@ -87,6 +87,7 @@ val dml_recipe_map as RecipeMap = FactoryRecipeMap.start(name)
     .maxInputs(2)
     .minOutputs(2)
     .maxOutputs(2)
+    .setSound("gregtech:tick.arc")
     .build();
 
 val naquadahItem = <ore:blockNaquadahAlloy>.firstItem;

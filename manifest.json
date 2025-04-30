@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Omnifactory Tweaked",
-  "author": "BalaM314, Nomifactory Devs",
+  "name": "Nomifactory",
+  "author": "Nomifactory",
   "projectID": 563950,
   "files": [
     {
@@ -158,11 +158,6 @@
       "required": true
     },
     {
-      "projectID": 230976,
-      "fileID": 2463272,
-      "required": true
-    },
-    {
       "projectID": 231382,
       "fileID": 3408276,
       "required": true
@@ -291,7 +286,7 @@
     },
     {
       "projectID": 246974,
-      "fileID": 2783099,
+      "fileID": 3050838,
       "required": true
     },
     {
@@ -312,11 +307,6 @@
     {
       "projectID": 248055,
       "fileID": 2580332,
-      "required": true
-    },
-    {
-      "projectID": 248453,
-      "fileID": 2785465,
       "required": true
     },
     {
@@ -359,11 +349,6 @@
     {
       "projectID": 252676,
       "fileID": 2441510,
-      "required": true
-    },
-    {
-      "projectID": 252910,
-      "fileID": 3041340,
       "required": true
     },
     {
@@ -422,11 +407,6 @@
       "required": true
     },
     {
-      "projectID": 261251,
-      "fileID": 3045651,
-      "required": true
-    },
-    {
       "projectID": 261348,
       "fileID": 3143349,
       "required": true
@@ -468,26 +448,9 @@
       "required": true
     },
     {
-      "projectID": 271009,
-      "fileID": 2863246,
-      "required": true
-    },
-    {
       "projectID": 271384,
       "fileID": 2920434,
       "required": true
-    },
-    {
-      "projectID": 271492,
-      "fileID": 2469710,
-      "required": true,
-      "sides": ["client"]
-    },
-    {
-      "projectID": 271740,
-      "fileID": 2707353,
-      "required": true,
-      "sides": ["client"]
     },
     {
       "projectID": 271835,
@@ -516,11 +479,6 @@
       "required": true
     },
     {
-      "projectID": 278385,
-      "fileID": 2482543,
-      "required": true
-    },
-    {
       "projectID": 278494,
       "fileID": 3327893,
       "required": true
@@ -541,11 +499,6 @@
       "required": true
     },
     {
-      "projectID": 280510,
-      "fileID": 2810157,
-      "required": true
-    },
-    {
       "projectID": 282313,
       "fileID": 2689835,
       "required": true,
@@ -562,12 +515,6 @@
       "required": true
     },
     {
-      "projectID": 284904,
-      "fileID": 2568865,
-      "required": true,
-      "sides": ["client"]
-    },
-    {
       "projectID": 285612,
       "fileID": 3133651,
       "required": true
@@ -575,11 +522,6 @@
     {
       "projectID": 286098,
       "fileID": 2524514,
-      "required": true
-    },
-    {
-      "projectID": 288885,
-      "fileID": 4030366,
       "required": true
     },
     {
@@ -644,7 +586,7 @@
     },
     {
       "projectID": 308380,
-      "fileID": 5398860,
+      "fileID": 6308252,
       "required": true
     },
     {
@@ -664,12 +606,12 @@
     },
     {
       "projectID": 316751,
-      "fileID": 5403634,
+      "fileID": 6309610,
       "required": true
     },
     {
       "projectID": 322861,
-      "fileID": 5182923,
+      "fileID": 6293114,
       "required": true
     },
     {
@@ -695,7 +637,7 @@
     },
     {
       "projectID": 386188,
-      "fileID": 3407001,
+      "fileID": 6028175,
       "required": true
     },
     {
@@ -710,7 +652,7 @@
     },
     {
       "projectID": 419286,
-      "fileID": 4591146,
+      "fileID": 5079135,
       "required": true
     },
     {
@@ -724,8 +666,13 @@
       "required": true
     },
     {
+      "projectID": 456403,
+      "fileID": 6142081,
+      "required": true
+    },
+    {
       "projectID": 460609,
-      "fileID": 5257348,
+      "fileID": 6217170,
       "required": true
     },
     {
@@ -745,7 +692,7 @@
     },
     {
       "projectID": 570458,
-      "fileID": 5378163,
+      "fileID": 6302098,
       "required": true
     },
     {
@@ -764,18 +711,18 @@
       "required": true
     },
     {
-      "projectID": 243121,
-      "fileID": 2924091,
-      "required": true
-    },
-    {
-      "projectID": 250363,
-      "fileID": 2746011,
+      "projectID": 705000,
+      "fileID": 6123916,
       "required": true
     },
     {
       "projectID": 737252,
-      "fileID": 5043404,
+      "fileID": 5985530,
+      "required": true
+    },
+    {
+      "projectID": 870276,
+      "fileID": 5212709,
       "required": true
     },
     {
@@ -800,7 +747,22 @@
     },
     {
       "projectID": 1019238,
-      "fileID": 5411833,
+      "fileID": 6309288,
+      "required": true
+    },
+    {
+      "projectID": 1058274,
+      "fileID": 5799813,
+      "required": true
+    },
+    {
+      "projectID": 243121,
+      "fileID": 2924091,
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 2746011,
       "required": true
     }
   ],
