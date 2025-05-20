@@ -260,6 +260,24 @@ recipes.addShaped(<gregtech:machine:2023>, [
 	[<ore:wireGtQuadrupleNaquadahAlloy>, <ore:wireGtQuadrupleNaquadahAlloy>, <gregtech:machine:508>],
 	[<ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <ore:wireGtQuadrupleNaquadahAlloy>]]);
 
+//LuV Electrolyzer: Vanadium-Gallium
+recipes.remove(<gregtech:machine:2081>);
+recipes.addShaped(<gregtech:machine:2081>, [
+	[<ore:wireGtSingleVanadiumGallium>, <gtadditions:ga_transparent_casing>, <ore:wireGtSingleVanadiumGallium>],
+	[<ore:wireGtSingleVanadiumGallium>, <gregtech:machine:506>, <ore:wireGtSingleVanadiumGallium>],
+	[<ore:circuitMaster>, <ore:cableGtSingleNiobiumTitanium>, <ore:circuitMaster>]]);
+//ZPM Electrolyzer: Duranium
+recipes.remove(<gregtech:machine:2082>);
+recipes.addShaped(<gregtech:machine:2082>, [
+	[<ore:wireGtSingleDuranium>, <gtadditions:ga_transparent_casing>, <ore:wireGtSingleDuranium>],
+	[<ore:wireGtSingleDuranium>, <gregtech:machine:507>, <ore:wireGtSingleDuranium>],
+	[<ore:circuitUltimate>, <ore:cableGtSingleNaquadah>, <ore:circuitUltimate>]]);
+//UV Electrolyzer: Omnium
+recipes.remove(<gregtech:machine:2083>);
+recipes.addShaped(<gregtech:machine:2083>, [
+	[<ore:wireGtSingleSuperconductor>, <gtadditions:ga_transparent_casing>, <ore:wireGtSingleSuperconductor>],
+	[<ore:wireGtSingleSuperconductor>, <gregtech:machine:508>, <ore:wireGtSingleSuperconductor>],
+	[<ore:circuitSuperconductor>, <ore:wireGtQuadrupleNaquadahAlloy>, <ore:circuitSuperconductor>]]);
 
 
 
