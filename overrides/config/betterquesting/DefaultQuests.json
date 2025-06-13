@@ -13902,7 +13902,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The Suit Workstation is needed to install §6Low Pressure Tanks§r (or a larger tank if you like) onto your Space Suit Chest-Piece.\n\nOnce installed, you can stand on a §aGas Charging Pad§r to fill up the tanks with §9Oxygen§r. Of course, you\u0027ll need to fill the Gas Charging Pad with Oxygen first.",
+          "desc:8": "The Suit Workstation is needed to install §6Low Pressure Tanks§r (or a larger tank if you like) onto your Space Suit Chest-Piece.\n\nOnce installed, you can stand on a §aGas Charging Pad§r to fill up the tanks with §9Oxygen§r. Of course, you\u0027ll need to fill the Gas Charging Pad with Oxygen first.\n\n§eThe Gas Charging Pad does not need RF to operate!§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13960,16 +13960,45 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "advancedrocketry:pressuretank"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
               "id:8": "advancedrocketry:oxygencharger"
             }
           },
           "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "advancedrocketry:pressuretank"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "advancedrocketry:pressuretank"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "advancedrocketry:pressuretank"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "advancedrocketry:pressuretank"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
