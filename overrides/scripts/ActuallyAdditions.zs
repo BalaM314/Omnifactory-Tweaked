@@ -1,3 +1,5 @@
+import scripts.CommonVars.makeExtremeRecipe5 as makeExtremeRecipe5;
+
 print("--- loading ActuallyAdditions.zs ---");
 	
 # *======= Empowerer =======*
@@ -369,13 +371,17 @@ recipes.addShaped(<extrautils2:drum:2>, [
 	
 //Demonic	
 recipes.removeByRecipeName("extrautils2:drum_65536");
-mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:drum:3>,[
-	[<extrautils2:simpledecorative:1>,<moreplates:demon_plate>,<moreplates:demon_plate>,<moreplates:demon_plate>,<extrautils2:simpledecorative:1>],
-	[<extrautils2:simpledecorative:1>,<gregtech:machine:2199>,<gregtech:machine:2199>,<gregtech:machine:2199>,<extrautils2:simpledecorative:1>],
-	[<extrautils2:simpledecorative:1>,<gregtech:machine:2199>,<extrautils2:drum:2>,<gregtech:machine:2199>,<extrautils2:simpledecorative:1>],
-	[<extrautils2:simpledecorative:1>,<gregtech:machine:2199>,<gregtech:machine:2199>,<gregtech:machine:2199>,<extrautils2:simpledecorative:1>],
-	[<extrautils2:simpledecorative:1>,<moreplates:demon_plate>,<moreplates:demon_plate>,<moreplates:demon_plate>,<extrautils2:simpledecorative:1>]]);		
-	
+makeExtremeRecipe5(<extrautils2:drum:3>,
+    ["ABBBA",
+     "ACCCA",
+     "ACDCA",
+     "ACCCA",
+     "ABBBA"],
+    { A : <extrautils2:simpledecorative:1>, // Block of Demon Metal
+      B : <moreplates:demon_plate>,
+      C : <gregtech:machine:2199>, // Titanium Drum
+      D : <extrautils2:drum:2> }); // Reinforced Drum
+
 //Solar
 recipes.remove(<actuallyadditions:block_furnace_solar>);
 recipes.addShaped(<actuallyadditions:block_furnace_solar>, [

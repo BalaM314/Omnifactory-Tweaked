@@ -4,6 +4,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.recipes.ICraftingInfo;
 import scripts.CommonVars.makeShaped as makeShaped;
+import scripts.CommonVars.makeExtremeRecipe5 as makeExtremeRecipe5;
 
 //Conductive Iron Thruster
 recipes.remove(<simplyjetpacks:metaitemmods:7>);
@@ -727,9 +728,16 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"})
 	[<gregtech:meta_item_1:12184>,<gregtech:meta_item_1:12184>,<gregtech:meta_item_1:12184>]]);
 
 recipes.remove(<enderio:block_soul_binder>);
-mods.extendedcrafting.TableCrafting.addShaped(<enderio:block_soul_binder>, [
-	[<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>,  <enderio:item_alloy_ingot:7>,<enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <gregtech:meta_item_1:12235>, <enderio:block_enderman_skull>,<gregtech:meta_item_1:12235>,<enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <minecraft:skull:4>,          <ore:itemSoulMachineChassi>,   <minecraft:skull:2>,         <enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <gregtech:meta_item_1:12235>, <minecraft:skull>,             <gregtech:meta_item_1:12235>,<enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>,  <enderio:item_alloy_ingot:7>,<enderio:item_alloy_ingot:7>]]);
+makeExtremeRecipe5(<enderio:block_soul_binder>,
+    ["AAAAA",
+     "ABCBA",
+     "ADEFA",
+     "ABGBA",
+     "AAAAA"],
+    { A : <enderio:item_alloy_ingot:7>,
+      B : <metaitem:plateTungstenSteel>,
+      C : <enderio:block_enderman_skull>,
+      D : <minecraft:skull:4>,
+      E : <ore:itemSoulMachineChassi>,
+      F : <minecraft:skull:2>,
+      G : <minecraft:skull> });

@@ -943,7 +943,7 @@ reactor.recipeBuilder()
 ///////////////////////// Omnium  ///////////////////////////////
 
 mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:singularity_ultimate>);
-mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:singularity_ultimate>, [
+mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:singularity_ultimate>, [
 [null,                            null,                                <extendedcrafting:material:140>,    <contenttweaker:solidifiedhydrogen>,  <contenttweaker:solidifiedhelium>,        <gregtech:meta_item_1:10036>,           <extendedcrafting:material:140>,   null,                               null],
 [null,                            <extendedcrafting:material:140>,     <gregtech:meta_item_1:10007>,       <gregtech:meta_item_1:2009>,          <gregtech:meta_item_1:10012>,             <contenttweaker:solidifiednitrogen>,    <contenttweaker:solidifiedoxygen>, <extendedcrafting:material:140>,    null],
 [<extendedcrafting:material:140>, <contenttweaker:solidifiedfluorine>, <contenttweaker:solidifiedneon>,    <gregtech:meta_item_1:10063>,         <gregtech:meta_item_1:10038>,             <gregtech:meta_item_1:10001>,           <gregtech:meta_item_1:10061>,      <gregtech:meta_item_1:2050>,        <extendedcrafting:material:140>],
@@ -1095,7 +1095,7 @@ makeExtremeRecipe9(<avaritia:resource:5>,
 
 /////////// Ultimate Gem ////////////
 
-mods.extendedcrafting.TableCrafting.addShapeless(<contenttweaker:ultimate_gem>,
+mods.extendedcrafting.TableCrafting.addShapeless(2, <contenttweaker:ultimate_gem>,
     [<thermalfoundation:material:893>,
      <actuallyadditions:item_crystal_empowered:5>,
      <enderio:item_material:16>,
@@ -1506,7 +1506,7 @@ dynamo5 = dynamo5.only(isResonant);
 //Ultimate Collections
 
 //Ultimate Generator
-mods.extendedcrafting.TableCrafting.addShapeless(<contenttweaker:ultimate_generator>,
+mods.extendedcrafting.TableCrafting.addShapeless(4, <contenttweaker:ultimate_generator>,
 [<gregtech:machine:521>, <gregtech:machine:522>, <gregtech:machine:480>, <gregtech:machine:481>, <nuclearcraft:fission_controller_new_fixed>, <nuclearcraft:salt_fission_controller>, <gregtech:machine:482>, <gregtech:machine:523>, <gregtech:machine:524>,
 <solarflux:solar_panel_1>, <solarflux:solar_panel_4>, <solarflux:solar_panel_5>, <solarflux:solar_panel_6>, <draconicevolution:generator>, <solarflux:solar_panel_7>, <solarflux:solar_panel_8>, <solarflux:solar_panel_wyvern>, <solarflux:solar_panel_neutronium>,
 <solarflux:solar_panel_2>, <solarflux:solar_panel_3>, xu01, xu02, xu03, xu04, xu05, <solarflux:solar_panel_chaotic>, <solarflux:solar_panel_draconic>,
@@ -1551,3 +1551,19 @@ makeShaped("of_star_from_nuggets", <minecraft:nether_star>,
      "NNN",
      "NNN"],
     { N : <extendedcrafting:material:140> });
+
+// Crystaltine - require Elite table
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
+makeExtremeRecipe7(<extendedcrafting:material:24>,
+    ["ABBBBBA",
+     "ACDEDCA",
+     "ACDEDCA",
+     "ABBBBBA",
+     "       ",
+     "       ",
+     "       "],
+    { A : <minecraft:diamond>,
+      B : <minecraft:dye:4>, // lapis
+      C : <extendedcrafting:material:140>, // nether star nugget
+      D : <minecraft:iron_ingot>,
+      E : <minecraft:gold_ingot> });
