@@ -15,7 +15,6 @@ import scripts.CommonVars.makeShapeless3 as makeShapeless3;
 
 // Controller
 recipes.remove(<modularmachinery:blockcontroller>);
-<modularmachinery:blockcontroller>.displayName = "Modular Machine Controller";
 <modularmachinery:blockcontroller>.addTooltip(format.red("Modular Machinery is getting removed in a future update."));
 <modularmachinery:blockcontroller>.addTooltip(format.red("Please use the new GregTech multiblocks instead. ('@Multiblock' in JEI)"));
 
@@ -359,18 +358,6 @@ makeExtremeRecipe9(<contenttweaker:tiertenship>,
 	  U : <contenttweaker:universalnavigator>,
 	  W : <contenttweaker:warpengine> }
 );
-
-<extendedcrafting:trimmed:0>.displayName = "Block of Black Steel";
-<extendedcrafting:trimmed:1>.displayName = "Block of Black Steel";
-<extendedcrafting:trimmed:2>.displayName = "Block of Black Steel";
-<extendedcrafting:trimmed:3>.displayName = "Block of Black Steel";
-<extendedcrafting:trimmed:4>.displayName = "Block of Black Steel";
-<extendedcrafting:trimmed:5>.displayName = "Block of Black Steel";
-<extendedcrafting:trimmed:5>.clearTooltip();
-<extendedcrafting:trimmed:5>.addTooltip("Block of Black Steel");
-<extendedcrafting:trimmed:5>.addTooltip(
-	format.gray(
-		format.italic("Omnium Trimmed")));
 
 recipes.removeByRecipeName("avaritia:items/resource/neutron_nugget");
 

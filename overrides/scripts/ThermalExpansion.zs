@@ -336,7 +336,6 @@ recipes.addShaped(<thermalfoundation:material:1028> * 4,[
 	[<thermalfoundation:material:1025>, <thermalfoundation:material:1027>, <thermalfoundation:material:1027>]]);
 
 
-<thermalfoundation:material:72>.displayName = "Mana Infused Metal Dust";
 blast_furnace.recipeBuilder().inputs([<thermalfoundation:material:72>]).fluidInputs(<liquid:mana> * 250).outputs(<thermalfoundation:material:136>).property("temperature", 2141).duration(400).EUt(400).buildAndRegister();
 
 recipes.remove(<thermalexpansion:frame>);
@@ -344,14 +343,12 @@ recipes.addShaped(<thermalexpansion:frame>, [
 [<gregtech:meta_item_1:12183>,<gregtech:meta_item_1:12183>,<gregtech:meta_item_1:12183>],
 [<gregtech:meta_item_1:12183>,<thermalexpansion:frame:64>,<gregtech:meta_item_1:12183>],
 [<gregtech:meta_item_1:12183>,<gregtech:meta_item_1:12183>,<gregtech:meta_item_1:12183>]]);
-<thermalexpansion:frame:64>.displayName = "Thermal Machine Casing";
 
 recipes.remove(<thermalexpansion:frame:64>);
 recipes.addShaped(<thermalexpansion:frame:64>, [
 	[<thermalfoundation:material:136>,<thermalfoundation:material:136>,<thermalfoundation:material:136>],
 	[<thermalfoundation:material:136>, null, <thermalfoundation:material:136>],
 	[<thermalfoundation:material:136>,<thermalfoundation:material:136>,<thermalfoundation:material:136>]]);
-<thermalexpansion:frame:64>.displayName = "Thermal Device Casing";
 
 
 //Add Black Lotus to Phytogenic Insolator for black dye

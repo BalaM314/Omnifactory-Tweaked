@@ -15,10 +15,6 @@ if(!isNull(sft)) {
 
 }
 
-<simplefluidtanks:wrench>.displayName = "Multiblock Fluid Tank Wrench";
-<simplefluidtanks:tankitem>.displayName = "Multiblock Fluid Tank Block";
-<simplefluidtanks:valveitem>.displayName = "Multiblock Fluid Tank Valve";
-
 recipes.remove(<simplefluidtanks:tankitem>);
 recipes.addShapeless(<metaitem:plateIron>, [<simplefluidtanks:tankitem>]);
 

@@ -81,7 +81,6 @@ makeShaped("loot_fabricator",
 	});
 
 recipes.remove(<deepmoblearning:machine_casing>);
-<deepmoblearning:machine_casing>.displayName = "Dark Steel Machine Hull";
 makeShaped("dark_steel_machine_hull",
 	<deepmoblearning:machine_casing>, [
 		"AAA",
@@ -109,7 +108,6 @@ alloy.recipeBuilder()
 	.duration(200).EUt(16).buildAndRegister();
 
 recipes.remove(<deepmoblearning:polymer_clay>);
-<deepmoblearning:polymer_clay>.displayName = "Pulsating Polymer Clay";
 
 alloy.recipeBuilder()
 	.outputs([<deepmoblearning:polymer_clay> * 4])

@@ -16,7 +16,6 @@ makeShaped("nomi_reinforced_obsidian",
       B : <enderio:block_dark_iron_bars>,
       C : <armorplus:compressed_obsidian> });
 
-<enderio:block_dark_iron_bars>.displayName = "Dark Steel Bars";
 recipes.remove(<enderio:block_dark_iron_bars>);
 makeShaped("nomi_dark_steel_bars",
     <enderio:block_dark_iron_bars> * 8,
@@ -205,10 +204,6 @@ makeShaped("nomi_carbon_boots",
      "A A"],
     { A : <contenttweaker:carbonarmorplate> });
 
-<armorplus:coal_helmet>.displayName = "Carbon Plated Helmet";	
-<armorplus:coal_chestplate>.displayName = "Carbon Plated Chestplate";	
-<armorplus:coal_leggings>.displayName = "Carbon Plated Leggings";	
-<armorplus:coal_boots>.displayName = "Carbon Plated Boots";
 
 
 //Ardite Armor
@@ -791,8 +786,6 @@ makeExtremeRecipe9(<avaritia:infinity_helmet>,
       E : <draconicevolution:wyvern_helm> });
 
 //Ultimate Chestplate
-<enderio:item_dark_steel_chestplate>.displayName = "Dark Steel Chestplate";	
-<enderio:item_end_steel_chestplate>.displayName = "End Steel Chestplate";
 
 //Left
 makeExtremeRecipe5(<armorplus:the_ultimate_part:5>,
@@ -875,8 +868,7 @@ makeExtremeRecipe9(<avaritia:infinity_chestplate>,
 
 
 //Ultimate Leggings
-<enderio:item_dark_steel_leggings>.displayName = "Dark Steel Leggings";	
-<enderio:item_end_steel_leggings>.displayName = "End Steel Leggings";
+
 //Left
 makeExtremeRecipe5(<armorplus:the_ultimate_part:8>,
     ["AA   ",
@@ -961,8 +953,7 @@ makeExtremeRecipe9(<avaritia:infinity_pants>,
 
 
 //Ultimate Boots
-<enderio:item_dark_steel_boots>.displayName = "Dark Steel Boots";	
-<enderio:item_end_steel_boots>.displayName = "End Steel Boots";
+
 //Left
 makeExtremeRecipe5(<armorplus:the_ultimate_part:11>,
     ["     ",

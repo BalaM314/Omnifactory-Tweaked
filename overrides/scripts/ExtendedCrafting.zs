@@ -632,7 +632,6 @@ makeShaped("of_extendedcrafting_pedestal", <extendedcrafting:pedestal>,
       B : <gregtech:meta_item_1:12231>,
       C : <gregtech:meta_block_compressed_14:8> }); //Red Steel Block
 
-<extendedcrafting:material:19>.displayName = "Conflux Component";
 recipes.remove(<extendedcrafting:material:19>);
 
 makeShaped("of_conflux_component", <extendedcrafting:material:19>,
@@ -645,7 +644,6 @@ makeShaped("of_conflux_component", <extendedcrafting:material:19>,
       D : <extendedcrafting:material:16>,
       E : <extendedcrafting:material:17> });
 
-<extendedcrafting:material:13>.displayName = "Conflux Catalyst";
 recipes.remove(<extendedcrafting:material:13>);
 
 makeShaped("of_conflux_catalyst", <extendedcrafting:material:13>,
@@ -774,7 +772,6 @@ makeShaped("of_extendedcrafting_table_advanced", <extendedcrafting:table_advance
       C : <avaritia:compressed_crafting_table>,
       D : <extendedcrafting:material:9> });
 
-<extendedcrafting:table_advanced>.displayName = "Extended Crafting Table";
 
 //Elite Extended Crafting Table
 recipes.remove(<extendedcrafting:table_elite>);
@@ -790,13 +787,11 @@ makeExtremeRecipe5(<extendedcrafting:table_elite>,
       C : <gregtech:meta_block_compressed_0:1>,
       D : <extendedcrafting:material:16>,
       T : <extendedcrafting:table_advanced> });
-<extendedcrafting:table_elite>.displayName = "Elite Extended Crafting Table";
 
 //Ultimate Extended Crafting Table
 recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.addShapeless(<extendedcrafting:table_ultimate> * 2, [<extendedcrafting:table_ultimate>]);
 
-<extendedcrafting:table_ultimate>.displayName = "Ultimate Extended Crafting Table";
 makeExtremeRecipe7(<extendedcrafting:table_ultimate>,
     ["EBBABBE",
      "BCCCCCB",
@@ -812,18 +807,11 @@ makeExtremeRecipe7(<extendedcrafting:table_ultimate>,
       E : <minecraft:emerald_block>,
       T : <extendedcrafting:table_elite> });
 
-<extendedcrafting:singularity_ultimate>.displayName = "Mote of Omnium";
-
 implosion.recipeBuilder()
     .inputs([<extendedcrafting:singularity_ultimate>])
     .property("explosives", 1)
     .outputs(<extendedcrafting:material:33>)
     .duration(20).EUt(30).buildAndRegister();
-
-<extendedcrafting:material:33>.displayName = "Omnium Nugget";
-<extendedcrafting:material:32>.displayName = "Omnium Ingot";
-<extendedcrafting:storage:4>.displayName = "Block of Omnium";
-
 
 
 recipes.remove(<minecraft:end_crystal>);
@@ -846,7 +834,6 @@ makeShaped("of_nether_star", <minecraft:nether_star>,
       E : <contenttweaker:netherstareast>,
       S : <contenttweaker:netherstarsouth> });
 
-<cns:star_fragment>.displayName = "Nether Star Tip North";
 recipes.remove(<cns:star_fragment>);
 makeShaped("of_nether_star_north", <cns:star_fragment>,
     [" A ",
@@ -936,9 +923,6 @@ reactor.recipeBuilder()
     .outputs(<contenttweaker:knightslimeingot>)
     .duration(320).EUt(400).buildAndRegister();
 
-<extendedcrafting:storage:6>.displayName = "Block of Endest Stars";
-<extendedcrafting:material:40>.displayName = "Endest Star";
-<extendedcrafting:material:41>.displayName = "Endest Star Nugget";
 
 ///////////////////////// Omnium  ///////////////////////////////
 
@@ -1372,7 +1356,6 @@ recipes.remove(<simplyjetpacks:metaitemmods:12>);
 makeShaped("sj2_wroughtiron_plate",
            <simplyjetpacks:metaitemmods:12>,
            plateShape, { P : <ore:plateWroughtIron> });
-<simplyjetpacks:metaitemmods:12>.displayName = "Wrought Iron Armor Plating";
 
 recipes.remove(<simplyjetpacks:metaitemmods:13>);
 makeShaped("sj2_ConductiveIron_plating",
@@ -1539,8 +1522,6 @@ makeExtremeRecipe9(<contenttweaker:ultimate_power_storage>,
       G : <gregtech:meta_item_1:32599>,
       H : <gtadditions:ga_meta_item:32124>,
       I : <metaitem:lapotron_crystal> });
-
-<gregtech:turbine_casing:3>.displayName = "Magnalium Turbine Casing";
 
 //Luminessence de-blockifying recipe
 recipes.addShapeless(<extendedcrafting:material:7>*9,[<extendedcrafting:storage:1>]);

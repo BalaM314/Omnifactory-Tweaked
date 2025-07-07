@@ -19,17 +19,6 @@ recipes.addShaped(<gregtech:meta_item_2:32570>, [
 furnace.addRecipe(<minecraft:slime_ball> * 2, <gregtech:meta_item_2:32570>, 0.0);
 
 
-//Mining Hammers
-<thermalfoundation:tool.hammer_stone>.displayName = "Stone Mining Hammer";
-<thermalfoundation:tool.hammer_tin>.displayName = "Tin Mining Hammer";
-<thermalfoundation:tool.hammer_copper>.displayName = "Copper Mining Hammer";
-<thermalfoundation:tool.hammer_steel>.displayName = "Steel Mining Hammer";
-<thermalfoundation:tool.hammer_platinum>.displayName = "Platinum Mining Hammer";
-<thermalfoundation:tool.hammer_bronze>.displayName = "Bronze Mining Hammer";
-<thermalfoundation:tool.hammer_iron>.displayName = "Iron Mining Hammer";
-<thermalfoundation:tool.hammer_diamond>.displayName = "Diamond Mining Hammer";
-
-
 recipes.remove(<storagedrawers:upgrade_template>);
 recipes.addShaped(<storagedrawers:upgrade_template> * 2, [
 	[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
@@ -44,7 +33,6 @@ recipes.remove(<minecraft:shears>);
 recipes.addShaped(<minecraft:shears>,[
 [<gregtech:meta_tool:6>,<ore:plateIron>],
 [<ore:plateIron>,<gregtech:meta_tool:9>]]);
-<minecraft:shears>.displayName = "Iron Shears";
 
 //Wool
 recipes.remove(<minecraft:string>);
@@ -119,7 +107,6 @@ recipes.addShaped(<rangedpumps:pump>, [
 	[<minecraft:obsidian>, <gregtech:meta_item_1:32610>, <minecraft:obsidian>],
 	[<gregtech:meta_item_1:32610>, <gregtech:meta_block_compressed_13:10>, <gregtech:meta_item_1:32610>], //Ender Pearl Block
 	[<minecraft:obsidian>, <gregtech:meta_item_1:32610>, <minecraft:obsidian>]]);
-<rangedpumps:pump>.displayName = "Ender Pump";
 
 recipes.remove(<enderstorage:ender_storage:1>);
 recipes.addShaped(<enderstorage:ender_storage:1>, [
@@ -235,29 +222,6 @@ recipes.addShaped(<enderio:item_yeta_wrench>, [
 	[<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
 	[null, <gregtech:meta_item_2:26033>, null],
 	[null,<minecraft:iron_ingot>,null]]);
-<gregtech:machine:511>.displayName = "Electric Blast Furnace Controller";
-<gregtech:machine:702>.displayName = "Fluid Input Hatch (ULV)";
-<gregtech:machine:712>.displayName = "Fluid Input Hatch (LV)";
-<gregtech:machine:722>.displayName = "Fluid Input Hatch (MV)";
-<gregtech:machine:732>.displayName = "Fluid Input Hatch (HV)";
-<gregtech:machine:742>.displayName = "Fluid Input Hatch (EV)";
-<gregtech:machine:752>.displayName = "Fluid Input Hatch (IV)";
-<gregtech:machine:762>.displayName = "Fluid Input Hatch (LuV)";
-<gregtech:machine:772>.displayName = "Fluid Input Hatch (ZPM)";
-<gregtech:machine:782>.displayName = "Fluid Input Hatch (UV)";
-<gregtech:machine:792>.displayName = "Fluid Input Hatch (MAX)";
-<gregtech:machine:703>.displayName = "Fluid Output Hatch (ULV)";
-<gregtech:machine:713>.displayName = "Fluid Output Hatch (LV)";
-<gregtech:machine:723>.displayName = "Fluid Output Hatch (MV)";
-<gregtech:machine:733>.displayName = "Fluid Output Hatch (HV)";
-<gregtech:machine:743>.displayName = "Fluid Output Hatch (EV)";
-<gregtech:machine:753>.displayName = "Fluid Output Hatch (IV)";
-<gregtech:machine:763>.displayName = "Fluid Output Hatch (LuV)";
-<gregtech:machine:773>.displayName = "Fluid Output Hatch (ZPM)";
-<gregtech:machine:783>.displayName = "Fluid Output Hatch (UV)";
-<gregtech:machine:793>.displayName = "Fluid Output Hatch (MAX)";
-
-
 
 
 //Chemistry

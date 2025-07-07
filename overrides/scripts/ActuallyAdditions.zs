@@ -84,7 +84,6 @@ recipes.addShaped(<actuallyadditions:block_misc:9>, [
 [<gregtech:meta_item_1:12001>,<gregtech:meta_item_1:12001>,<gregtech:meta_item_1:12001>], 
 [<gregtech:meta_item_1:12001>,<actuallyadditions:item_misc:5>,<gregtech:meta_item_1:12001>], 
 [<gregtech:meta_item_1:12001>,<gregtech:meta_item_1:12001>,<gregtech:meta_item_1:12001>]]);
-<actuallyadditions:block_misc:9>.displayName = "Aluminium Casing";	
 
 //AA Atomic Reconstructor	
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);	
