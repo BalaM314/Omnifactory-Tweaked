@@ -732,14 +732,14 @@ assembler.findRecipe(16, [<gregtech:meta_item_1:12184> * 8, <gregtech:meta_item_
 // use wrought iron instead
 assembler.recipeBuilder()
     .inputs(<ore:plateWroughtIron> * 8)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .circuit(8)
     .outputs([<gregtech:machine_casing:1>])
     .duration(30).EUt(16).buildAndRegister();
 
 // Buckets from iron plates
 assembler.recipeBuilder()
     .inputs(<ore:plateIron> * 3)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .circuit(3)
     .outputs([<minecraft:bucket>])
     .duration(30).EUt(16).buildAndRegister();
 
@@ -819,6 +819,13 @@ makeShaped("of_ulv_casing", <gregtech:machine_casing>,
 	{ P : <ore:plateIron>,  //Iron Plate
 	  W : wrench});
 
+// ULV Machine Casing (Assembler)
+assembler.recipeBuilder()
+    .outputs([<gregtech:machine_casing>])
+    .inputs(<ore:plateIron> * 8)
+    .circuit(8)
+    .duration(30).EUt(16).buildAndRegister();
+
 // LV Machine Casing
 makeShaped("of_lv_casing", <gregtech:machine_casing:1>,
 	["PPP",
@@ -856,16 +863,33 @@ assembler.findRecipe(2, [<gregtech:meta_item_1:12197> * 5, <minecraft:chest>], [
 assembler.findRecipe(2, [<gregtech:meta_item_1:12033> * 5, <minecraft:chest>], [null]).remove();	
 assembler.findRecipe(4, [<gregtech:meta_item_1:12197> * 4, <minecraft:redstone>], [null]).remove();	
 assembler.findRecipe(4, [<gregtech:meta_item_1:12033> * 4, <minecraft:redstone>], [null]).remove();	
-assembler.recipeBuilder().inputs(<ore:plateIron> * 8).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing>]).duration(30).EUt(16).buildAndRegister();
-assembler.findRecipe(16, [<gregtech:cable:5035> * 2, <gregtech:machine_casing>], [<liquid:plastic> * 288]).remove();	
-assembler.recipeBuilder().inputs(<ore:plateIron> * 3,<gregtech:machine_casing>,<gregtech:cable:5237> * 2).outputs([<gregtech:machine:500>]).duration(30).EUt(16).buildAndRegister();
 
-//ULV Hull
-recipes.remove(<gregtech:machine:500>);	
-recipes.addShaped(<gregtech:machine:500>, [
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
-	[<ore:cableGtSingleRedAlloy>, <gregtech:machine_casing>, <ore:cableGtSingleRedAlloy>]]);	
-	
+// ULV Hull
+assembler.findRecipe(16, [
+        <ore:cableGtSingleRedAlloy>.firstItem * 2,
+        <gregtech:machine_casing>
+    ],
+    [<liquid:plastic> * 288]).remove();
+
+assembler.recipeBuilder()
+    .outputs([<gregtech:machine:500>])
+    .inputs(
+        <ore:plateIron> * 3,
+        <gregtech:machine_casing>,
+        <ore:cableGtSingleRedAlloy> * 2
+    )
+    .duration(30).EUt(16).buildAndRegister();
+
+recipes.remove(<gregtech:machine:500>);
+makeShaped("of_hull_ulv", <gregtech:machine:500>,
+    ["   ",
+     "PPP",
+     "WCW"],
+    { P : <ore:plateIron>,
+      W : <ore:cableGtSingleRedAlloy>,
+      C : <gregtech:machine_casing>
+    });
+
 //Pyrolyse Oven
 
 //Remove SoG Recipes
@@ -888,7 +912,7 @@ pyro.findRecipe(96, [<minecraft:log> * 16, <gregtech:meta_item_1:32766>.withTag(
 //Creosote and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+	.circuit(0)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:creosote> * 4000])
@@ -897,7 +921,7 @@ pyro.recipeBuilder()
 //Wood Vinegar and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.circuit(1)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:wood_vinegar> * 3000])
@@ -906,7 +930,7 @@ pyro.recipeBuilder()
 //Wood Gas and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+	.circuit(2)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:wood_gas> * 1500])
@@ -915,7 +939,7 @@ pyro.recipeBuilder()
 //Wood Tar and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+	.circuit(3)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:wood_tar> * 1500])
@@ -924,7 +948,7 @@ pyro.recipeBuilder()
 //Charcoal Byproducts and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+	.circuit(4)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:charcoal_byproducts> * 4000])
@@ -933,7 +957,7 @@ pyro.recipeBuilder()
 //Phenol and Coke
 pyro.recipeBuilder()
 	.inputs([<minecraft:coal> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.circuit(1)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<gregtech:meta_item_1:8357> * 20])
 	.fluidOutputs([<liquid:phenol> * 1000])
@@ -942,7 +966,7 @@ pyro.recipeBuilder()
 //Phenol and Coke dust
 pyro.recipeBuilder()
 	.inputs([<gregtech:meta_item_1:2106> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.circuit(1)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<gregtech:meta_item_1:2357> * 20])
 	.fluidOutputs([<liquid:phenol> * 1000])
