@@ -1,3 +1,80 @@
+// Vanilla
+item.shears.name=Iron Shears
+
+
+// Actually Additions
+tile.actuallyadditions.block_misc_iron_casing.name=Aluminium Casing
+
+
+// Advanced Rocketry
+tile.fuelStation.name=Fueling Station
+
+
+// ArmorPlus
+item.armorplus.coal_helmet.name=Carbon Plated Helmet
+item.armorplus.coal_chestplate.name=Carbon Plated Chestplate
+item.armorplus.coal_leggings.name=Carbon Plated Leggings
+item.armorplus.coal_boots.name=Carbon Plated Boots
+
+
+// Craftable Nether Stars
+item.star_fragment.name=Nether Star Tip North
+
+
+// Deep Mob Evolution
+tile.deepmoblearning.machine_casing.name=Dark Steel Machine Hull
+item.deepmoblearning.polymer_clay.name=Pulsating Polymer Clay
+
+
+// EnderIO
+tile.block_dark_iron_bars.name=Dark Steel Bars
+item.item_dark_steel_helmet.name=Dark Steel Helmet
+item.item_dark_steel_chestplate.name=Dark Steel Chestplate
+item.item_dark_steel_leggings.name=Dark Steel Leggings
+item.item_dark_steel_boots.name=Dark Steel Boots
+item.item_end_steel_helmet.name=End Steel Helmet
+item.item_end_steel_chestplate.name=End Steel Chestplate
+item.item_end_steel_leggings.name=End Steel Leggings
+item.item_end_steel_boots.name=End Steel Boots
+tile.block_cap_bank.activated.name=Advanced Capacitor Bank
+tile.block_enchanter.name=Dark Steel Enchanter
+item.item_basic_capacitor.basic.name=Basic RF Capacitor
+item.item_basic_capacitor.activated.name=Double-Layer RF Capacitor
+item.item_basic_capacitor.ender.name=Octadic RF Capacitor
+enderio.item_power_conduit.name=Conductive Iron Energy Conduit
+enderio.item_power_conduit_enhanced.name=Energetic Alloy Energy Conduit
+enderio.item_power_conduit_ender.name=Vibrant Alloy Energy Conduit
+enderio.item_endergy_conduit_iron.name=End Steel Energy Conduit
+enderio.item_endergy_conduit_electrum.name=Lumium Energy Conduit
+enderio.item_endergy_conduit_copper.name=Signalum Energy Conduit
+enderio.item_endergy_conduit_cobble.name=Enderium Energy Conduit
+enderio.item_endergy_conduit_melodic.name=Draconium Energy Conduit
+enderio.item_endergy_conduit_stellar.name=Superconductor Energy Conduit
+
+
+// ExtendedCrafting
+item.ec.material_ultimater_catalyst.name=Conflux Catalyst
+item.ec.material_ultimater_component.name=Conflux Component
+item.ec.material_ultimate_ingot.name=Omnium Ingot
+item.ec.material_ultimate_nugget.name=Omnium Nugget
+item.ec.material_ender_star.name=Endest Star
+item.ec.material_enhanced_ender_nugget.name=Endest Star Nugget
+item.ec.singularity_ultimate.name=Mote of Omnium
+tile.ec.storage_ultimate.name=Block of Omnium
+tile.ec.storage_ender_star.name=Block of Endest Stars
+tile.ec.table_advanced.name=Extended Crafting Table
+tile.ec.table_elite.name=Elite Extended Crafting Table
+tile.ec.table_ultimate.name=Ultimate Extended Crafting Table
+tile.ec.trimmed_iron.name=Block of Black Steel
+tile.ec.trimmed_gold.name=Block of Black Steel
+tile.ec.trimmed_diamond.name=Block of Black Steel
+tile.ec.trimmed_emerald.name=Block of Black Steel
+tile.ec.trimmed_crystaltine.name=Block of Black Steel
+tile.ec.trimmed_ultimate.name=Block of Black Steel
+tooltip.ec.trimmed_ultimate=Omnium Trimmed
+
+
+// GregTech
 metaitem.circuit.energy_flow.name=Crystal Processor
 metaitem.circuit.quantum_processor.name=§5Quantum Circuit
 metaitem.circuit.nano_processor_assembly.name=Nanoprocessor
@@ -12,10 +89,73 @@ metaitem.circuit.wetware_assembly.name=Wetware Processor
 metaitem.circuit.wetware_super_computer.name=Wetware Processor Array
 metaitem.circuit.wetware_mainframe.name=Wetware Processor Mainframe
 metaitem.quantumstar.name=§5Quantum Star
-
-nomifactory.nonetherportals=Nether portals are disabled in §5Nomifactory§r. Follow the quest book to unlock §6Nether Cakes§r!
-
+gregtech.machine.electric_blast_furnace.name=Electric Blast Furnace Controller
+gregtech.machine.fluid_hatch.import.ulv.name=Fluid Input Hatch (ULV)
+gregtech.machine.fluid_hatch.export.ulv.name=Fluid Output Hatch (ULV)
+gregtech.machine.fluid_hatch.import.lv.name=Fluid Input Hatch (LV)
+gregtech.machine.fluid_hatch.export.lv.name=Fluid Output Hatch (LV)
+gregtech.machine.fluid_hatch.import.mv.name=Fluid Input Hatch (MV)
+gregtech.machine.fluid_hatch.export.mv.name=Fluid Output Hatch (MV)
+gregtech.machine.fluid_hatch.import.hv.name=Fluid Input Hatch (HV)
+gregtech.machine.fluid_hatch.export.hv.name=Fluid Output Hatch (HV)
+gregtech.machine.fluid_hatch.import.ev.name=Fluid Input Hatch (EV)
+gregtech.machine.fluid_hatch.export.ev.name=Fluid Output Hatch (EV)
+gregtech.machine.fluid_hatch.import.iv.name=Fluid Input Hatch (IV)
+gregtech.machine.fluid_hatch.export.iv.name=Fluid Output Hatch (IV)
+gregtech.machine.fluid_hatch.import.luv.name=Fluid Input Hatch (LuV)
+gregtech.machine.fluid_hatch.export.luv.name=Fluid Output Hatch (LuV)
+gregtech.machine.fluid_hatch.import.zpm.name=Fluid Input Hatch (ZPM)
+gregtech.machine.fluid_hatch.export.zpm.name=Fluid Output Hatch (ZPM)
+gregtech.machine.fluid_hatch.import.uv.name=Fluid Input Hatch (UV)
+gregtech.machine.fluid_hatch.export.uv.name=Fluid Output Hatch (UV)
+gregtech.machine.fluid_hatch.import.max.name=Fluid Input Hatch (MAX)
+gregtech.machine.fluid_hatch.export.max.name=Fluid Output Hatch (MAX)
 item.ruby.lens=Red Lens
 item.emerald.lens=Green Lens
 item.blue_topaz.lens=Blue Lens
 item.amethyst.lens=Draconium Lens
+tile.turbine_casing.steel_turbine_casing.name=Magnalium Turbine Casing
+
+
+// NoNetherPortals
+nomifactory.nonetherportals=Nether portals are disabled in §5Nomifactory§r. Follow the quest book to unlock §6Nether Cakes§r!
+
+
+// Thermal Expansion / Foundation
+item.thermalexpansion.frame.frameCell2.name=Micro Miner Engine Frame
+item.thermalexpansion.frame.frameCell3.name=Signalum Micro Miner Engine Frame
+item.thermalexpansion.frame.frameCell4.name=Enderium Micro Miner Engine Frame
+item.thermalexpansion.frame.frameCell2Filled.name=Micro Miner Engine Core
+item.thermalexpansion.frame.frameCell3Filled.name=Signalum Micro Miner Engine Core
+item.thermalexpansion.frame.frameCell4Filled.name=Enderium Micro Miner Engine Core
+item.thermalexpansion.frame.frameDevice.name=Thermal Device Casing
+item.thermalexpansion.frame.frameMachine.name=Thermal Machine Casing
+item.thermalfoundation.tool.bronzeHammer.name=Bronze Mining Hammer
+item.thermalfoundation.tool.copperHammer.name=Copper Mining Hammer
+item.thermalfoundation.tool.diamondHammer.name=Diamond Mining Hammer
+item.thermalfoundation.tool.ironHammer.name=Iron Mining Hammer
+item.thermalfoundation.tool.platinumHammer.name=Platinum Mining Hammer
+item.thermalfoundation.tool.steelHammer.name=Steel Mining Hammer
+item.thermalfoundation.tool.stoneHammer.name=Stone Mining Hammer
+item.thermalfoundation.tool.tinHammer.name=Tin Mining Hammer
+item.thermalfoundation.material.dustMithril.name=Mana Infused Metal Dust
+
+
+// Modular Machinery
+tile.modularmachinery.blockcontroller.name=Modular Machine Controller
+
+
+// Ranged Pumps
+block.rangedpumps:pump.name=Ender Pump
+
+
+// Simple Fluid Tanks
+tile.tankBlock.name=Multiblock Fluid Tank Block
+tile.valveBlock.name=Multiblock Fluid Tank Valve
+item.wrench.name=Multiblock Fluid Tank Wrench
+
+
+// SimplyJetpacks
+item.simplyjetpacks.armor_Plating_EIO1.name=Wrought Iron Armor Plating
+
+

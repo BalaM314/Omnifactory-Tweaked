@@ -751,8 +751,6 @@ makeShaped("ar_fueling_station",
 		M: <gregtech:fluid_pipe:2183>,    // Medium Stainless Steel Pipe
 	});
 
-<advancedrocketry:fuelingstation>.displayName = "Fueling Station";
-
 // Dilithium Dust
 macerator.recipeBuilder()
 	.inputs([<libvulpes:ore0>])

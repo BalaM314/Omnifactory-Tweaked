@@ -167,21 +167,6 @@ lathe.recipeBuilder().inputs([<gregtech:meta_item_1:14972> * 2]).outputs([<gregt
 lathe.recipeBuilder().inputs([<gregtech:meta_item_1:14299> * 2]).outputs([<gregtech:meta_item_2:19299>]).duration(200).EUt(30).buildAndRegister();
 lathe.recipeBuilder().inputs([<ore:stickMicroversium> * 2]).outputs([<ore:stickLongMicroversium>.firstItem]).duration(200).EUt(30).buildAndRegister();
 
-//Neutronium Round
-lathe.findRecipe(8, [<gregtech:meta_item_1:9972>], [null]).remove();	
-lathe.recipeBuilder().inputs([<avaritia:resource:3>]).outputs([<gtadditions:ga_meta_item:2972>]).duration(100).EUt(8).buildAndRegister();
-//Neutronium Round by Hand
-recipes.remove(<gtadditions:ga_meta_item:2972>);
-makeShaped("neutronium_round", <gtadditions:ga_meta_item:2972>,
-	["FN ",
-	 "N  ",
-	 "   "],
-	{ F : <ore:craftingToolFile>.firstItem.withEmptyTag(),
-	  N : <avaritia:resource:3> //Neutronium Nugget
-	  });
-
-
-	
 //Brewery
 for recipe in brewer.recipes {
 	recipe.remove();
@@ -278,13 +263,42 @@ assembler.recipeBuilder().inputs([<simplyjetpacks:metaitemmods:20>]).fluidInputs
 
 
 //Gear Boxes Via Assembler
+assembler.findRecipe(16, [
+        <metaitem:plateBronze> * 4,
+        <metaitem:gearBronze> * 2,
+        <gregtech:frame_bronze>,
+        <gregtech:meta_item_1:32766>.withTag({Configuration: 4})
+    ], [null]).remove();
+
 assembler.recipeBuilder()
-	.inputs([<gregtech:meta_item_2:26184> * 2, <gregtech:meta_item_1:12184> * 4, <gregtech:frame_steel>])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+	.inputs([<metaitem:gearBronze> * 2, <metaitem:plateBronze> * 4, <gregtech:frame_bronze>])
+	.circuit(8)
+	.outputs([<gregtech:turbine_casing:0> * 3])
+	.duration(100).EUt(16).buildAndRegister();
+
+assembler.findRecipe(16, [
+        <metaitem:plateSteel> * 4,
+        <metaitem:gearSteel> * 2,
+        <gregtech:frame_steel>,
+        <gregtech:meta_item_1:32766>.withTag({Configuration: 4})
+    ], [null]).remove();
+
+assembler.recipeBuilder()
+	.inputs([<metaitem:gearSteel> * 2, <metaitem:plateSteel> * 4, <gregtech:frame_steel>])
+	.circuit(8)
 	.outputs([<gregtech:turbine_casing:1> * 3])
 	.duration(200).EUt(16).buildAndRegister();
+
+assembler.findRecipe(16, [
+        <metaitem:plateTitanium> * 4,
+        <metaitem:gearTitanium> * 2,
+        <gregtech:frame_titanium>,
+        <gregtech:meta_item_1:32766>.withTag({Configuration: 4})
+    ], [null]).remove();
+
 assembler.recipeBuilder()
-	.inputs([<gregtech:meta_item_2:26072> * 2, <gregtech:meta_item_1:12072> * 4, <gregtech:frame_titanium>])
+	.inputs([<metaitem:gearTitanium> * 2, <metaitem:plateTitanium> * 4, <gregtech:frame_titanium>])
+	.circuit(8)
 	.outputs([<gregtech:turbine_casing:2> * 3])
 	.duration(400).EUt(16).buildAndRegister();
 
@@ -293,10 +307,11 @@ assembler.recipeBuilder()
 assembler.recipeBuilder().inputs([<gregtech:meta_item_2:18072> * 4, <gregtech:fluid_pipe:2072> * 2, <gregtech:metal_casing:6>]).outputs([<gregtech:multiblock_casing>]).duration(400).EUt(16).buildAndRegister();
 
 
+recipes.removeByRecipeName("extrautils2:shortcut_hopper");
 assembler.findRecipe(2, [<gregtech:meta_item_1:12197> * 5, <minecraft:trapped_chest>], [null]).remove();	
 assembler.findRecipe(2, [<gregtech:meta_item_1:12033> * 5, <minecraft:trapped_chest>], [null]).remove();	
-assembler.recipeBuilder().inputs([<gregtech:meta_item_1:12033> * 5, <minecraft:chest>]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5})).outputs([<minecraft:hopper>]).duration(100).EUt(16).buildAndRegister();
-assembler.recipeBuilder().inputs([<gregtech:meta_item_1:12197> * 5, <minecraft:chest>]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 5})).outputs([<minecraft:hopper>]).duration(100).EUt(16).buildAndRegister();
+assembler.recipeBuilder().inputs([<gregtech:meta_item_1:12033> * 5, <minecraft:chest>]).circuit(5).outputs([<minecraft:hopper>]).duration(100).EUt(16).buildAndRegister();
+assembler.recipeBuilder().inputs([<gregtech:meta_item_1:12197> * 5, <minecraft:chest>]).circuit(5).outputs([<minecraft:hopper>]).duration(100).EUt(16).buildAndRegister();
 recipes.addShapeless(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}), [<enderio:item_soul_vial:1>.withTag({entityId: "minecraft:cow"})]);
 furnace.remove(<gregtech:meta_item_1:9706>, <gregtech:meta_item_1:706>);
 furnace.remove(<gregtech:meta_item_1:9707>, <gregtech:meta_item_1:707>);
@@ -309,16 +324,19 @@ recipes.remove(<gregtech:meta_item_1:2707>);
 recipes.remove(<gregtech:meta_item_1:2708>);
 
 //Small Gear Via Extruder
+makeShaped("of_small_gear_extruder_shape", <contenttweaker:smallgearextrudershape>,
+    ["A  ",
+     " B ",
+     "   "],
+    { A : <metaitem:shape.empty>,
+      B : <ore:craftingToolWireCutter> });
 
-recipes.addShaped(<contenttweaker:smallgearextrudershape>, [
-	[<gregtech:meta_item_1:32300>,null,null],
-	[null,<gregtech:meta_tool:13>,null], 
-	[null,null,null]]);
-	
-recipes.addShaped(<contenttweaker:creativeportabletankmold>, [
-	[null,null,<gregtech:meta_tool:6>],
-	[null,<gregtech:meta_item_1:32300>,null], 
-	[null,null,null]]);
+makeShaped("of_creative_tank_mold", <contenttweaker:creativeportabletankmold>,
+    ["  B",
+     " A ",
+     "   "],
+    { A : <metaitem:shape.empty>,
+      B : <ore:craftingToolHardHammer> });
 
 extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10184>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17184>]).duration(30).EUt(64).buildAndRegister();	//steel	small gear
 extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10001>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17001>]).duration(30).EUt(64).buildAndRegister();	//aluminium	small gear

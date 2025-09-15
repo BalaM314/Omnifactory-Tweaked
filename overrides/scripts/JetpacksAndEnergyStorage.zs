@@ -4,6 +4,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IItemStack;
 import crafttweaker.recipes.ICraftingInfo;
 import scripts.CommonVars.makeShaped as makeShaped;
+import scripts.CommonVars.makeExtremeRecipe5 as makeExtremeRecipe5;
 
 //Conductive Iron Thruster
 recipes.remove(<simplyjetpacks:metaitemmods:7>);
@@ -147,7 +148,6 @@ recipes.addShaped(<enderio:block_cap_bank:2>,  [
 	[<enderio:block_cap_bank:1>.marked("left"), <enderio:item_basic_capacitor:1>, <enderio:block_cap_bank:1>.marked("right")],
 	[<gregtech:meta_item_1:12705>,<gregtech:meta_item_1:12705>,<gregtech:meta_item_1:12705>]],
 	sumCapacitorBankPower);
-<enderio:block_cap_bank:2>.displayName = "Advanced Capacitor Bank";
 
 // vibrant capacitor bank
 recipes.remove(<enderio:block_cap_bank:3>);
@@ -580,16 +580,6 @@ recipes.addShaped(<enderio:block_xp_vacuum>, [
 	[<gregtech:meta_item_1:12704>, <enderio:item_xp_transfer>, <gregtech:meta_item_1:12704>],
 	[<gregtech:meta_item_1:12704>, <ore:itemPulsatingCrystal>, <gregtech:meta_item_1:12704>]]);
 
-
-//<thermalexpansion:frame:128>.displayName = "Leadstone Energy Cell Frame";
-//<thermalexpansion:cell>.displayName = "Leadstone Energy Cell";
-<thermalexpansion:frame:130>.displayName = "Micro Miner Engine Frame";
-<thermalexpansion:frame:146>.displayName = "Micro Miner Engine Core";
-<thermalexpansion:frame:131>.displayName = "Signalum Micro Miner Engine Frame";
-<thermalexpansion:frame:147>.displayName = "Signalum Micro Miner Engine Core";
-<thermalexpansion:frame:132>.displayName = "Enderium Micro Miner Engine Frame";
-<thermalexpansion:frame:148>.displayName = "Enderium Micro Miner Engine Core";
-
 recipes.addShaped(<thermalexpansion:frame:130>, [
 	[<gregtech:meta_item_1:12112>, <gregtech:meta_item_1:14112>, <gregtech:meta_item_1:12112>],
 	[<gregtech:meta_item_1:14112>, null, <gregtech:meta_item_1:14112>],
@@ -713,7 +703,6 @@ mods.jei.JEI.addItem(reinforcedcell);
 mods.jei.JEI.addItem(signalumcell);
 mods.jei.JEI.addItem(resonantcell);
 
-<enderio:block_enchanter>.displayName = "Dark Steel Enchanter";
 recipes.remove(<enderio:block_enchanter>);
 recipes.addShaped(<enderio:block_enchanter>, [
 	[<ore:gemDiamond>, <minecraft:book>, <ore:gemDiamond>],
@@ -727,9 +716,16 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"})
 	[<gregtech:meta_item_1:12184>,<gregtech:meta_item_1:12184>,<gregtech:meta_item_1:12184>]]);
 
 recipes.remove(<enderio:block_soul_binder>);
-mods.extendedcrafting.TableCrafting.addShaped(<enderio:block_soul_binder>, [
-	[<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>,  <enderio:item_alloy_ingot:7>,<enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <gregtech:meta_item_1:12235>, <enderio:block_enderman_skull>,<gregtech:meta_item_1:12235>,<enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <minecraft:skull:4>,          <ore:itemSoulMachineChassi>,   <minecraft:skull:2>,         <enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <gregtech:meta_item_1:12235>, <minecraft:skull>,             <gregtech:meta_item_1:12235>,<enderio:item_alloy_ingot:7>],
-	[<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>,  <enderio:item_alloy_ingot:7>,<enderio:item_alloy_ingot:7>]]);
+makeExtremeRecipe5(<enderio:block_soul_binder>,
+    ["AAAAA",
+     "ABCBA",
+     "ADEFA",
+     "ABGBA",
+     "AAAAA"],
+    { A : <enderio:item_alloy_ingot:7>,
+      B : <metaitem:plateTungstenSteel>,
+      C : <enderio:block_enderman_skull>,
+      D : <minecraft:skull:4>,
+      E : <ore:itemSoulMachineChassi>,
+      F : <minecraft:skull:2>,
+      G : <minecraft:skull> });

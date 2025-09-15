@@ -445,26 +445,6 @@ assembly_line.recipeBuilder().inputs(<gregtech:meta_item_2:32459> * 32, <gregtec
 <metaitem:circuit.wetware_mainframe>.addTooltip(format.aqua(format.italic("This is the first and only Tier Nine circuit.")));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<enderio:item_basic_capacitor>.displayName = "Basic RF Capacitor";
-<enderio:item_basic_capacitor:1>.displayName = "Double-Layer RF Capacitor";
-<enderio:item_basic_capacitor:2>.displayName = "Octadic RF Capacitor";
-
-
-	
 //Cables By Hand
 recipes.removeByRecipeName("gregtech:tin_cable_1");
 recipes.removeByRecipeName("gregtech:red_alloy_cable_1");
@@ -508,7 +488,7 @@ recipes.addShaped(<enderio:item_power_conduit> * 3, [									//Conductive Iron 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:700>,<gregtech:cable:700>,<gregtech:cable:700>],
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_power_conduit>.displayName = "Conductive Iron Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:700> * 3, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_power_conduit> * 4]).duration(80).EUt(16).buildAndRegister();
 //x4 LV ceu
 recipes.addShaped(<gregtech:machine:10660>, [[<ore:wireGtQuadrupleConductiveIron>, <ore:circuitBasic>, <ore:wireGtQuadrupleConductiveIron>], [<enderio:item_power_conduit>, <gregtech:machine:501>, <enderio:item_power_conduit>], [<ore:wireGtQuadrupleConductiveIron>, <ore:chestWood>, <ore:wireGtQuadrupleConductiveIron>]]);
@@ -530,7 +510,7 @@ recipes.addShaped(<enderio:item_power_conduit:1> * 3, [									//Energetic Allo
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:701>,<enderio:item_power_conduit>,<gregtech:cable:701>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_power_conduit:1>.displayName = "Energetic Alloy Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:701> * 2, <enderio:item_power_conduit>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_power_conduit:1> * 4]).duration(80).EUt(16).buildAndRegister();
 //x4 MV ceu
 recipes.addShaped(<gregtech:machine:10668>, [[<ore:wireGtQuadrupleEnergeticAlloy>, <ore:circuitGood>, <ore:wireGtQuadrupleEnergeticAlloy>], [<enderio:item_power_conduit:1>, <gregtech:machine:502>,<enderio:item_power_conduit:1>], [<ore:wireGtQuadrupleEnergeticAlloy>, <ore:chestWood>, <ore:wireGtQuadrupleEnergeticAlloy>]]);
@@ -552,7 +532,7 @@ recipes.addShaped(<enderio:item_power_conduit:2> * 3, [									//vibrant alloy 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:702>,<enderio:item_power_conduit:1>,<gregtech:cable:702>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_power_conduit:2>.displayName = "Vibrant Alloy Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:702> * 2, <enderio:item_power_conduit:1>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_power_conduit:2> * 4]).duration(80).EUt(16).buildAndRegister();	
 //x4 HV ceu
 recipes.addShaped(<gregtech:machine:10676>, [[<ore:wireGtQuadrupleVibrantAlloy>, <ore:circuitAdvanced>, <ore:wireGtQuadrupleVibrantAlloy>], [<enderio:item_power_conduit:2>, <gregtech:machine:503>, <enderio:item_power_conduit:2>], [<ore:wireGtQuadrupleVibrantAlloy>, <ore:chestWood>, <ore:wireGtQuadrupleVibrantAlloy>]]);
@@ -575,7 +555,7 @@ recipes.addShaped(<enderio:item_endergy_conduit:1> * 3, [									//End Steel Co
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:712>,<enderio:item_power_conduit:2>,<gregtech:cable:712>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_endergy_conduit:1>.displayName = "End Steel Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:712> * 2, <enderio:item_power_conduit:2>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_endergy_conduit:1> * 4]).duration(80).EUt(16).buildAndRegister();	
 //x4 EV ceu
 recipes.addShaped(<gregtech:machine:10684>, [[<ore:wireGtQuadrupleEndSteel>, <ore:circuitExtreme>, <ore:wireGtQuadrupleEndSteel>], [<enderio:item_endergy_conduit:1>, <gregtech:machine:504>, <enderio:item_endergy_conduit:1>], [<ore:wireGtQuadrupleEndSteel>, <ore:chestWood>, <ore:wireGtQuadrupleEndSteel>]]);
@@ -597,7 +577,7 @@ recipes.addShaped(<enderio:item_endergy_conduit:6> * 3, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:706>,<enderio:item_endergy_conduit:1> ,<gregtech:cable:706>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_endergy_conduit:6>.displayName = "Lumium Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:706> * 2, <enderio:item_endergy_conduit:1> , <ore:itemConduitBinder> * 6]).outputs([<enderio:item_endergy_conduit:6> * 4]).duration(80).EUt(16).buildAndRegister();
 
 //x4 IV ceu
@@ -621,7 +601,7 @@ recipes.addShaped(<enderio:item_endergy_conduit:4> * 3, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:707>,<enderio:item_endergy_conduit:6>,<gregtech:cable:707>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_endergy_conduit:4>.displayName = "Signalum Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:707> * 2, <enderio:item_endergy_conduit:6>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_endergy_conduit:4> * 4]).duration(80).EUt(16).buildAndRegister();
 //x4 LUV ceu
 recipes.addShaped(<gregtech:machine:10700>, [[<ore:wireGtQuadrupleSignalum>, <ore:circuitMaster>, <ore:wireGtQuadrupleSignalum>], [<enderio:item_endergy_conduit:4>, <gregtech:machine:506>, <enderio:item_endergy_conduit:4>], [<ore:wireGtQuadrupleSignalum>, <ore:chestWood>, <ore:wireGtQuadrupleSignalum>]]);
@@ -644,7 +624,7 @@ recipes.addShaped(<enderio:item_endergy_conduit> * 3, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:708>,<enderio:item_endergy_conduit:4>,<gregtech:cable:708>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_endergy_conduit>.displayName = "Enderium Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:708>* 2, <enderio:item_endergy_conduit:4>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_endergy_conduit> * 4]).duration(80).EUt(16).buildAndRegister();
 //x4 ZPM ceu
 recipes.addShaped(<gregtech:machine:10708>, [[<ore:wireGtQuadrupleEnderium>, <ore:circuitUltimate>, <ore:wireGtQuadrupleEnderium>], [<enderio:item_endergy_conduit>, <gregtech:machine:507>, <enderio:item_endergy_conduit>], [<ore:wireGtQuadrupleEnderium>, <ore:chestWood>, <ore:wireGtQuadrupleEnderium>]]);
@@ -666,7 +646,7 @@ recipes.addShaped(<enderio:item_endergy_conduit:10> * 3, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:710>,<enderio:item_endergy_conduit>,<gregtech:cable:710>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_endergy_conduit:10>.displayName = "Draconium Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:710>* 2, <enderio:item_endergy_conduit>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_endergy_conduit:10> * 4]).duration(80).EUt(16).buildAndRegister();
 //x4 UV ceu
 recipes.addShaped(<gregtech:machine:10716>, [[<ore:wireGtQuadrupleDraconium>, <ore:circuitSuperconductor>, <ore:wireGtQuadrupleDraconium>], [<enderio:item_endergy_conduit:10>, <gregtech:machine:508>, <enderio:item_endergy_conduit:10>], [<ore:wireGtQuadrupleDraconium>, <ore:chestWood>, <ore:wireGtQuadrupleDraconium>]]);
@@ -683,7 +663,7 @@ recipes.addShaped(<enderio:item_endergy_conduit:11> * 3, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<gregtech:cable:354>,<enderio:item_endergy_conduit:10>,<gregtech:cable:354>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-<enderio:item_endergy_conduit:11>.displayName = "Superconductor Energy Conduit";
+
 assembler.recipeBuilder().inputs([<gregtech:cable:354>* 2, <enderio:item_endergy_conduit:10>, <ore:itemConduitBinder> * 6]).outputs([<enderio:item_endergy_conduit:11> * 4]).duration(80).EUt(16).buildAndRegister();
 
 //Item conduit - by hand
@@ -752,14 +732,14 @@ assembler.findRecipe(16, [<gregtech:meta_item_1:12184> * 8, <gregtech:meta_item_
 // use wrought iron instead
 assembler.recipeBuilder()
     .inputs(<ore:plateWroughtIron> * 8)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8}))
+    .circuit(8)
     .outputs([<gregtech:machine_casing:1>])
     .duration(30).EUt(16).buildAndRegister();
 
 // Buckets from iron plates
 assembler.recipeBuilder()
     .inputs(<ore:plateIron> * 3)
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+    .circuit(3)
     .outputs([<minecraft:bucket>])
     .duration(30).EUt(16).buildAndRegister();
 
@@ -839,6 +819,13 @@ makeShaped("of_ulv_casing", <gregtech:machine_casing>,
 	{ P : <ore:plateIron>,  //Iron Plate
 	  W : wrench});
 
+// ULV Machine Casing (Assembler)
+assembler.recipeBuilder()
+    .outputs([<gregtech:machine_casing>])
+    .inputs(<ore:plateIron> * 8)
+    .circuit(8)
+    .duration(30).EUt(16).buildAndRegister();
+
 // LV Machine Casing
 makeShaped("of_lv_casing", <gregtech:machine_casing:1>,
 	["PPP",
@@ -876,16 +863,33 @@ assembler.findRecipe(2, [<gregtech:meta_item_1:12197> * 5, <minecraft:chest>], [
 assembler.findRecipe(2, [<gregtech:meta_item_1:12033> * 5, <minecraft:chest>], [null]).remove();	
 assembler.findRecipe(4, [<gregtech:meta_item_1:12197> * 4, <minecraft:redstone>], [null]).remove();	
 assembler.findRecipe(4, [<gregtech:meta_item_1:12033> * 4, <minecraft:redstone>], [null]).remove();	
-assembler.recipeBuilder().inputs(<ore:plateIron> * 8).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<gregtech:machine_casing>]).duration(30).EUt(16).buildAndRegister();
-assembler.findRecipe(16, [<gregtech:cable:5035> * 2, <gregtech:machine_casing>], [<liquid:plastic> * 288]).remove();	
-assembler.recipeBuilder().inputs(<ore:plateIron> * 3,<gregtech:machine_casing>,<gregtech:cable:5237> * 2).outputs([<gregtech:machine:500>]).duration(30).EUt(16).buildAndRegister();
 
-//ULV Hull
-recipes.remove(<gregtech:machine:500>);	
-recipes.addShaped(<gregtech:machine:500>, [
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
-	[<ore:cableGtSingleRedAlloy>, <gregtech:machine_casing>, <ore:cableGtSingleRedAlloy>]]);	
-	
+// ULV Hull
+assembler.findRecipe(16, [
+        <ore:cableGtSingleRedAlloy>.firstItem * 2,
+        <gregtech:machine_casing>
+    ],
+    [<liquid:plastic> * 288]).remove();
+
+assembler.recipeBuilder()
+    .outputs([<gregtech:machine:500>])
+    .inputs(
+        <ore:plateIron> * 3,
+        <gregtech:machine_casing>,
+        <ore:cableGtSingleRedAlloy> * 2
+    )
+    .duration(30).EUt(16).buildAndRegister();
+
+recipes.remove(<gregtech:machine:500>);
+makeShaped("of_hull_ulv", <gregtech:machine:500>,
+    ["   ",
+     "PPP",
+     "WCW"],
+    { P : <ore:plateIron>,
+      W : <ore:cableGtSingleRedAlloy>,
+      C : <gregtech:machine_casing>
+    });
+
 //Pyrolyse Oven
 
 //Remove SoG Recipes
@@ -908,7 +912,7 @@ pyro.findRecipe(96, [<minecraft:log> * 16, <gregtech:meta_item_1:32766>.withTag(
 //Creosote and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 0}))
+	.circuit(0)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:creosote> * 4000])
@@ -917,7 +921,7 @@ pyro.recipeBuilder()
 //Wood Vinegar and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.circuit(1)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:wood_vinegar> * 3000])
@@ -926,7 +930,7 @@ pyro.recipeBuilder()
 //Wood Gas and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+	.circuit(2)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:wood_gas> * 1500])
@@ -935,7 +939,7 @@ pyro.recipeBuilder()
 //Wood Tar and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 3}))
+	.circuit(3)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:wood_tar> * 1500])
@@ -944,7 +948,7 @@ pyro.recipeBuilder()
 //Charcoal Byproducts and Charcoal
 pyro.recipeBuilder()
 	.inputs([<ore:logWood> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 4}))
+	.circuit(4)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<minecraft:coal:1> * 20])
 	.fluidOutputs([<liquid:charcoal_byproducts> * 4000])
@@ -953,7 +957,7 @@ pyro.recipeBuilder()
 //Phenol and Coke
 pyro.recipeBuilder()
 	.inputs([<minecraft:coal> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.circuit(1)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<gregtech:meta_item_1:8357> * 20])
 	.fluidOutputs([<liquid:phenol> * 1000])
@@ -962,7 +966,7 @@ pyro.recipeBuilder()
 //Phenol and Coke dust
 pyro.recipeBuilder()
 	.inputs([<gregtech:meta_item_1:2106> * 16])
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+	.circuit(1)
 	.fluidInputs([<liquid:steam> * 4000])
 	.outputs([<gregtech:meta_item_1:2357> * 20])
 	.fluidOutputs([<liquid:phenol> * 1000])
